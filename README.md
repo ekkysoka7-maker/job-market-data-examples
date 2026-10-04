@@ -71,9 +71,17 @@ Ready-made MCP config and registry file: [`mcp/`](mcp/README.md).
 All tools work through [Apify's MCP server](https://mcp.apify.com), so Claude, ChatGPT or Cursor can call them, for
 example: "find remote data engineering jobs in Europe that publish a salary".
 
-## Startup Salary Explorer
+## Job Market Data website
 
-[`docs/index.html`](docs/index.html) is a free, searchable salary table (GitHub Pages: Settings > Pages > Branch `main`, folder `/docs`). Rebuild it with `python docs/build_site.py salary_benchmarks.csv`.
+The [`docs/`](docs) folder is a free static website, published with GitHub Pages at
+**https://ekkysoka7-maker.github.io/job-market-data-examples/**: salary pages for 137 startup roles, hiring pages for
+187 fast-growing companies, ATS market share and an interactive Salary Explorer. Rebuild it from the CSVs in
+[`data/`](data) (same files as the Kaggle dataset):
+
+```bash
+python docs/build_site.py    # docs/explorer.html
+python docs/build_pages.py   # every other page, sitemap.xml and robots.txt
+```
 
 ## Free dataset
 

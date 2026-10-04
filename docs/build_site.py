@@ -1,6 +1,6 @@
-"""Build docs/index.html (Startup Salary Explorer, for GitHub Pages) from the salary benchmarks CSV.
+"""Build docs/explorer.html (Startup Salary Explorer, for GitHub Pages) from the salary benchmarks CSV.
 
-Run from the examples repo root: python docs/build_site.py path/to/salary_benchmarks.csv
+Run from the examples repo root: python docs/build_site.py [data/salary_benchmarks.csv]
 """
 from __future__ import annotations
 
@@ -59,6 +59,7 @@ td.num,th.num{text-align:right}
 </head>
 <body>
 <main>
+<p><a href="index.html">← Job Market Data</a></p>
 <h1>Startup Salary Explorer</h1>
 <p class="lead">What tech startups advertise right now: median, 25th and 75th percentile of posted pay
 ranges by role and country, from __N__ job postings with a published salary (snapshot __DATE__).</p>
@@ -109,10 +110,10 @@ document.getElementById("q").oninput=draw;sel.onchange=draw;draw();
 
 
 if __name__ == "__main__":
-    src = Path(sys.argv[1]) if len(sys.argv) > 1 else HERE.parent.parent / "kaggle" / "salary_benchmarks.csv"
+    src = Path(sys.argv[1]) if len(sys.argv) > 1 else HERE.parent / "data" / "salary_benchmarks.csv"
     data = rows(src)
     total = sum(x["n"] for x in data)
     html = (PAGE.replace("__DATA__", json.dumps(data, separators=(",", ":"))).replace("__N__", f"{total:,}")
             .replace("__DATE__", "October 2026").replace("__SUITE__", SUITE))
-    (HERE / "index.html").write_text(html, encoding="utf-8")
-    print("wrote docs/index.html with", len(data), "rows,", total, "postings")
+    (HERE / "explorer.html").write_text(html, encoding="utf-8")
+    print("wrote docs/explorer.html with", len(data), "rows,", total, "postings")

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ekkysoka7-maker.github.io/job-market-data-examples/sitemap.xml
