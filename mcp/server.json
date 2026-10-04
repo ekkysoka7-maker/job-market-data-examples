@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.ekkysoka7-maker/job-market-data",
+  "description": "Live job-market data: open jobs from 1,300+ company job boards, salary benchmarks, hiring trends, ATS detection.",
+  "version": "1.0.0",
+  "repository": {"url": "https://github.com/ekkysoka7-maker/job-market-data-examples", "source": "github"},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com?tools=worthwhile_quinsy/ats-jobs-search,worthwhile_quinsy/tech-salary-data-api,worthwhile_quinsy/company-hiring-trends,worthwhile_quinsy/ats-detector,worthwhile_quinsy/remote-jobs-api",
+      "headers": [{"name": "Authorization", "description": "Bearer <your Apify API token>", "isRequired": true, "isSecret": true}]
+    }
+  ]
+}

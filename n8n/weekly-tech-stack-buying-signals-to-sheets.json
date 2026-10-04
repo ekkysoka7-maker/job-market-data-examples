@@ -1,0 +1,183 @@
+{
+  "name": "Weekly B2B buying signals: companies hiring for a tech stack to Google Sheets (Apify)",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "## Weekly sales prospect list from job postings\n\nEvery Monday this workflow asks the **Companies Hiring by Tech Stack** Actor on Apify which companies opened roles mentioning the tools you sell into (e.g. Snowflake, Salesforce, HubSpot) and appends them to a Google Sheet: company, website, new roles, open roles, growth, top teams and countries.\n\n**Setup**\n1. Free Apify account: https://apify.com/worthwhile_quinsy/companies-hiring-by-tech-stack\n2. In *Find companies hiring*, create a **Header Auth** credential (Name `Authorization`, Value `Bearer <your Apify API token>`) and edit `technologies`.\n3. In *Append to sheet*, connect Google Sheets and pick a spreadsheet with a header row: company, company_website, new_jobs, open_jobs, open_jobs_30_days_ago, top_departments, hiring_countries, new_job_titles.\n\nCost: about $0.03 per company row.",
+        "height": 380,
+        "width": 460
+      },
+      "id": "5168053e-670a-4f62-bb4b-70bfc815849e",
+      "name": "Sticky Note",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -60,
+        -280
+      ]
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "weeks",
+              "triggerAtDay": [
+                1
+              ],
+              "triggerAtHour": 7
+            }
+          ]
+        }
+      },
+      "id": "194253ee-7fe7-4b87-8703-e2ab7b7412d8",
+      "name": "Every Monday",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/worthwhile_quinsy~companies-hiring-by-tech-stack/run-sync-get-dataset-items",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"technologies\": [\n    \"Snowflake\",\n    \"dbt\"\n  ],\n  \"newWithinDays\": 7,\n  \"maxResults\": 50\n}",
+        "options": {
+          "timeout": 300000
+        }
+      },
+      "id": "b169b677-b8ef-420b-a210-263e2b0e2806",
+      "name": "Find companies hiring",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        240,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "bd271b09-b7c0-4f75-9a13-d796625f0c8e",
+              "name": "top_departments",
+              "value": "={{ ($json.top_departments || []).join(', ') }}",
+              "type": "string"
+            },
+            {
+              "id": "1450fe53-ac67-4f98-b21e-acdbfa847a75",
+              "name": "hiring_countries",
+              "value": "={{ ($json.hiring_countries || []).join(', ') }}",
+              "type": "string"
+            },
+            {
+              "id": "186ea633-0bce-42fe-b6cd-dfd9863b788c",
+              "name": "new_job_titles",
+              "value": "={{ ($json.new_job_titles || []).slice(0, 5).join(' | ') }}",
+              "type": "string"
+            }
+          ]
+        },
+        "includeOtherFields": true,
+        "options": {}
+      },
+      "id": "690dadfb-a5c7-480f-a67e-df748dfdc1c1",
+      "name": "Flatten lists",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        480,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "",
+          "mode": "list"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "",
+          "mode": "list"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {}
+        },
+        "options": {}
+      },
+      "id": "e22edd7d-3dad-480e-838d-36f93d2c503d",
+      "name": "Append to sheet",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        720,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "content": "### Apify credential\nHeader Auth credential:\n- Name: `Authorization`\n- Value: `Bearer <your Apify API token>`\n\nThe Actor returns its rows directly (run-sync-get-dataset-items), so the next node gets one item per row.",
+        "height": 220,
+        "width": 260
+      },
+      "id": "4dab7cbb-b62a-4ca6-955a-f73b1e1b9af9",
+      "name": "Sticky Note1",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        220,
+        380
+      ]
+    }
+  ],
+  "connections": {
+    "Every Monday": {
+      "main": [
+        [
+          {
+            "node": "Find companies hiring",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Find companies hiring": {
+      "main": [
+        [
+          {
+            "node": "Flatten lists",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Flatten lists": {
+      "main": [
+        [
+          {
+            "node": "Append to sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {}
+}

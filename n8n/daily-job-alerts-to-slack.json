@@ -1,0 +1,125 @@
+{
+  "name": "Daily new jobs from company career pages to Slack (Apify Company Job Alerts)",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "## Daily new-job alerts to Slack\n\nEvery morning this workflow asks the **Company Job Alerts** Actor on Apify for jobs posted in the last day at the companies you list, straight from their own career pages (Greenhouse, Lever, Ashby, Workable and more), and posts each new job to Slack.\n\n**Setup (3 minutes)**\n1. Free Apify account: https://apify.com/worthwhile_quinsy/company-job-alerts\n2. In *Get new jobs*, create a **Header Auth** credential (Name `Authorization`, Value `Bearer <your Apify API token>` from Apify Console > Settings > API & Integrations) and edit `companyWebsites`.\n3. In *Post to Slack*, connect Slack and pick a channel.\n\nCost: pay per job row (about $0.003), nothing on days with no new jobs.",
+        "height": 360,
+        "width": 460
+      },
+      "id": "d37eeb1c-671d-4a68-b8eb-bc81a67c2709",
+      "name": "Sticky Note",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -60,
+        -260
+      ]
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "days",
+              "triggerAtHour": 8
+            }
+          ]
+        }
+      },
+      "id": "ecc517e2-f3d2-4346-abd3-019704f37445",
+      "name": "Every morning",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/worthwhile_quinsy~company-job-alerts/run-sync-get-dataset-items",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"companyWebsites\": [\n    \"stripe.com\",\n    \"vanta.com\",\n    \"ramp.com\"\n  ],\n  \"newWithinDays\": 1,\n  \"maxResults\": 200\n}",
+        "options": {
+          "timeout": 300000
+        }
+      },
+      "id": "b150182c-8de2-4153-abe3-2740404c5322",
+      "name": "Get new jobs",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        240,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "select": "channel",
+        "channelId": {
+          "__rl": true,
+          "value": "",
+          "mode": "list"
+        },
+        "text": "=:briefcase: *{{ $json.title }}* at {{ $json.company }}\n{{ $json.location || 'Location n/a' }}{{ $json.is_remote ? ' \u00b7 Remote' : '' }}{{ $json.salary_text ? ' \u00b7 ' + $json.salary_text : '' }}\n<{{ $json.url }}|View job>",
+        "otherOptions": {}
+      },
+      "id": "e5a20e4c-4a35-413e-8e06-be290fb258cb",
+      "name": "Post to Slack",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        480,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "content": "### Apify credential\nHeader Auth credential:\n- Name: `Authorization`\n- Value: `Bearer <your Apify API token>`\n\nThe Actor returns its rows directly (run-sync-get-dataset-items), so the next node gets one item per row.",
+        "height": 220,
+        "width": 260
+      },
+      "id": "6fd75e30-13d9-4acb-9ea0-d415a02ec597",
+      "name": "Sticky Note1",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        220,
+        380
+      ]
+    }
+  ],
+  "connections": {
+    "Every morning": {
+      "main": [
+        [
+          {
+            "node": "Get new jobs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get new jobs": {
+      "main": [
+        [
+          {
+            "node": "Post to Slack",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {}
+}
