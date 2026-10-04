@@ -306,7 +306,7 @@ def build_home(sal: list[dict], comp: list[dict], ats: list[dict]) -> None:
     us = sorted((r for r in sal if r["country"] == "US"), key=lambda r: -r["n"])[:12]
     top = "".join(f"<tr><td><a href='salaries/{slug(r['role'])}.html'>{esc(r['role'])}</a></td>"
                   f"<td class='num'><b>{money(r['m'], 'USD')}</b></td><td class='num'>{r['n']:,}</td></tr>" for r in us)
-    hot = "".join(f'<a href="companies/{c["slug"]}.html">{esc(c["company"])} (+{c["last30"]})</a>' for c in comp[:18])
+    hot = "".join(f'<a href="companies/{c["slug"]}.html">{esc(c["company"])} (+{c["last30"]})</a>' for c in [c for c in comp if c["open"] < 1000][:18])
     body = f"""<h1>Job market data from 48,000 startup job postings</h1>
 <p class="lead">Free salary benchmarks, the startups hiring fastest, and which job boards they use, read directly from the
 public job boards of 1,200+ tech companies. Snapshot {SNAPSHOT}; live data is refreshed daily.</p>
@@ -347,7 +347,7 @@ def main() -> None:
              "prev30": int(r["jobs_posted_previous_30_days"]), "remote": float(r["remote_share"] or 0),
              "teams": r["top_departments"]}
             for r in csv.DictReader((DATA / "fastest_hiring_companies.csv").open(encoding="utf-8"))]
-    comp.sort(key=lambda c: (-(c["last30"] - c["prev30"]), -c["open"]))
+    comp.sort(key=lambda c: (c["open"] >= 1000, -(c["last30"] / max(c["prev30"], 10)), -c["open"]))
     ats = [{"ats": r["ats"], "open": int(r["open_jobs"]), "share": float(r["share_of_open_jobs"])}
            for r in csv.DictReader((DATA / "ats_market_share.csv").open(encoding="utf-8"))]
     ats.sort(key=lambda r: -r["share"])
