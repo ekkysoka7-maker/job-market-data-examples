@@ -1,0 +1,37 @@
+# Job Market Data (company career pages)
+
+> Live job-market data read directly from 1,300+ companies' own job boards (Greenhouse, Lever, Ashby, Workable, Workday and more), refreshed daily: open jobs, salary benchmarks, hiring trends, ATS detection. Available as Apify Actors (API, pay per result, about $2 per 1,000 jobs) and as a remote MCP server for AI agents.
+
+Data is public job-posting data only (no personal data). Every row has the apply link to the company's own careers page.
+
+## MCP server (for Claude, ChatGPT, Cursor and other agents)
+
+- [MCP setup](https://github.com/ekkysoka7-maker/job-market-data-examples/tree/main/mcp): remote URL `https://mcp.apify.com?tools=worthwhile_quinsy/ats-jobs-search,worthwhile_quinsy/tech-salary-data-api,worthwhile_quinsy/company-hiring-trends,worthwhile_quinsy/ats-detector,worthwhile_quinsy/remote-jobs-api`
+
+## Actors (APIs)
+
+- [Company Jobs Search + Hiring Signals](https://apify.com/worthwhile_quinsy/ats-jobs-search): Search all jobs in the database, check your own list of companies, or get per-company hiring signals.
+- [Remote Jobs API](https://apify.com/worthwhile_quinsy/remote-jobs-api): Only remote jobs, ready for job boards, newsletters and alert bots.
+- [Companies Hiring by Tech Stack](https://apify.com/worthwhile_quinsy/companies-hiring-by-tech-stack): B2B buying signals: which companies are hiring for the tools you sell into.
+- [Tech Salary Data API](https://apify.com/worthwhile_quinsy/tech-salary-data-api): Salary benchmarks (median, P25, P75) from fresh job postings with published pay.
+- [Company Job Alerts](https://apify.com/worthwhile_quinsy/company-job-alerts): New jobs from any list of company career pages, every day.
+- [Company Hiring Trends](https://apify.com/worthwhile_quinsy/company-hiring-trends): Which companies are ramping up hiring, and which are slowing down.
+- [ATS Detector](https://apify.com/worthwhile_quinsy/ats-detector): Which applicant tracking system (Greenhouse, Lever, Ashby...) a company uses, plus its career page.
+- [Greenhouse Jobs Scraper](https://apify.com/worthwhile_quinsy/greenhouse-jobs-scraper): All open jobs from any Greenhouse job board, or search every Greenhouse board we track.
+- [Lever Jobs Scraper](https://apify.com/worthwhile_quinsy/lever-jobs-scraper): All open jobs from any Lever job board, or search every Lever board we track.
+- [Ashby Jobs Scraper](https://apify.com/worthwhile_quinsy/ashby-jobs-scraper): All open jobs from any Ashby job board, or search every Ashby board we track.
+- [Workable Jobs Scraper](https://apify.com/worthwhile_quinsy/workable-jobs-scraper): All open jobs from any Workable job board, or search every Workable board we track.
+- [New Grad & Internship Jobs Scraper](https://apify.com/worthwhile_quinsy/new-grad-internship-jobs-scraper): Internships, co-ops, new-grad and junior roles from 1,000+ tech company career pages.
+- [AI & Machine Learning Jobs Scraper](https://apify.com/worthwhile_quinsy/ai-machine-learning-jobs-scraper): AI, ML, LLM and data science roles from 1,000+ tech company career pages.
+- [Y Combinator Startup Jobs Scraper](https://apify.com/worthwhile_quinsy/y-combinator-startup-jobs-scraper): Every open role at nearly 700 Y Combinator startups, with batch, industry and team size.
+- [Workday Jobs Scraper](https://apify.com/worthwhile_quinsy/workday-jobs-scraper): All open jobs from any company's Workday careers site (myworkdayjobs.com), in seconds.
+
+## Free data and pages
+
+- [Salary benchmarks by role and country](https://ekkysoka7-maker.github.io/job-market-data-examples/salaries/)
+- [Fastest-hiring companies](https://ekkysoka7-maker.github.io/job-market-data-examples/)
+- [ATS market share](https://ekkysoka7-maker.github.io/job-market-data-examples/ats/)
+- [Job data explorer](https://ekkysoka7-maker.github.io/job-market-data-examples/explorer.html)
+- [CSV files](https://github.com/ekkysoka7-maker/job-market-data-examples/tree/main/data)
+- [Code examples: Python, JavaScript, Google Sheets, n8n, Make, Zapier](https://github.com/ekkysoka7-maker/job-market-data-examples)
+
