@@ -12,11 +12,14 @@ result, and the free monthly credit covers trying every example.
 |---|---|---|
 | Search jobs | Jobs by title, country, remote, salary, tech stack, date | [Company Jobs Search](https://apify.com/worthwhile_quinsy/ats-jobs-search) |
 | Salary benchmarks | Median, P25 and P75 pay by role and country | [Tech Salary Data API](https://apify.com/worthwhile_quinsy/tech-salary-data-api) |
-| Scrape a job board | Every open job from given company boards | [Greenhouse](https://apify.com/worthwhile_quinsy/greenhouse-jobs-scraper), [Lever](https://apify.com/worthwhile_quinsy/lever-jobs-scraper), [Ashby](https://apify.com/worthwhile_quinsy/ashby-jobs-scraper), [Workable](https://apify.com/worthwhile_quinsy/workable-jobs-scraper) |
+| Scrape a job board | Every open job from given company boards | [Greenhouse](https://apify.com/worthwhile_quinsy/greenhouse-jobs-scraper), [Lever](https://apify.com/worthwhile_quinsy/lever-jobs-scraper), [Ashby](https://apify.com/worthwhile_quinsy/ashby-jobs-scraper), [Workable](https://apify.com/worthwhile_quinsy/workable-jobs-scraper), [Workday](https://apify.com/worthwhile_quinsy/workday-jobs-scraper) |
 | Hiring trends | Companies accelerating or slowing hiring | [Company Hiring Trends](https://apify.com/worthwhile_quinsy/company-hiring-trends) |
 | Job alerts | New jobs from any company's careers page | [Company Job Alerts](https://apify.com/worthwhile_quinsy/company-job-alerts) |
 | ATS detection | Which job board a company uses | [ATS Detector](https://apify.com/worthwhile_quinsy/ats-detector) |
 | Remote jobs | Remote jobs API | [Remote Jobs API](https://apify.com/worthwhile_quinsy/remote-jobs-api) |
+| AI & ML jobs | ML, LLM and data science roles | [AI & Machine Learning Jobs](https://apify.com/worthwhile_quinsy/ai-machine-learning-jobs-scraper) |
+| Early-career jobs | Internships and new-grad roles | [New Grad & Internship Jobs](https://apify.com/worthwhile_quinsy/new-grad-internship-jobs-scraper) |
+| YC startup jobs | Open roles at Y Combinator companies | [Y Combinator Startup Jobs](https://apify.com/worthwhile_quinsy/y-combinator-startup-jobs-scraper) |
 | Tech stack signals | Companies hiring for a technology | [Companies Hiring by Tech Stack](https://apify.com/worthwhile_quinsy/companies-hiring-by-tech-stack) |
 
 ## Python

@@ -25,7 +25,7 @@ REPO = "https://github.com/ekkysoka7-maker/job-market-data-examples"
 SNAPSHOT = "October 2026"
 SNAPSHOT_ISO = "2026-10-04"
 # Per-ATS scrapers that are live on the Apify Store. Add an ATS here once its Actor is published.
-PUBLISHED_ATS = {"greenhouse", "lever", "ashby"}
+PUBLISHED_ATS = {"greenhouse", "lever", "ashby", "workable", "workday"}
 ATS_NAMES = {"greenhouse": "Greenhouse", "lever": "Lever", "ashby": "Ashby", "workable": "Workable",
              "smartrecruiters": "SmartRecruiters", "recruitee": "Recruitee", "bamboohr": "BambooHR",
              "personio": "Personio", "workday": "Workday"}
