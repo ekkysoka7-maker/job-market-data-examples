@@ -8,7 +8,7 @@
 - **Best-paid common roles:** Research Engineer $325k, Research Scientist $274k, Group Product Manager $265k.
 - **Pay bands are wide:** the typical gap between P25 and P75 is $39k.
 - **Remote vs pay:** correlation 0.07 across US roles, so remote roles are not paid less.
-- **Hiring bursts:** the 10 fastest-hiring startups posted 25% of the 10,023 new roles among accelerating companies (excluding large enterprises: Bosch Home Comfort, Pilot Company, AbbVie, Centria Autism).
+- **Hiring bursts:** the 10 fastest-hiring startups posted 25% of the 10,022 new roles among accelerating companies (excluding large enterprises: Bosch Home Comfort, Pilot Company, AbbVie, Centria Autism).
 - **ATS:** Greenhouse and Ashby host 73% of open startup jobs.
 
 ## US pay by role (10 most common)
@@ -31,11 +31,11 @@
 | Company | New roles (30 days) | Before | Top teams |
 |---|---|---|---|
 | NBCUniversal | 297 | 97 | Other; Production; Engineering |
-| Capco | 272 | 147 | Business Consulting; Tech & Engineering; Data & Analytics |
-| Stripe | 262 | 173 | Account Executives (EMEA); Global Operations; General University |
+| Capco | 272 | 144 | Business Consulting; Tech & Engineering; Data & Analytics |
+| Stripe | 262 | 172 | Account Executives (EMEA); Global Operations; General University |
 | Avery Dennison | 257 | 104 | Operations; Sales; Customer Service & Support |
 | SOCOTEC Global | 257 | 84 | Production; Engineering; Training |
-| Rocket Lab USA | 248 | 132 | USA Space Systems; Space Systems BD; Space Systems Software |
+| Rocket Lab USA | 248 | 130 | USA Space Systems; Space Systems BD; Space Systems Software |
 | ACCEL Schools | 245 | 7 | School Support; Special Education; Elementary Teaching |
 | Shield AI | 218 | 101 | Hivemind Solutions Division; X-BAT Division; Aircraft Operations Division |
 | BIBIBOP | 211 | 43 | Bibibop - Team; Bibibop - Operational Leader; Bibi Restaurant Leadership |
