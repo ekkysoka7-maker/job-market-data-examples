@@ -4,7 +4,7 @@ Copy-paste examples for getting **job postings, salary benchmarks and hiring sig
 1,200+ tech companies (Greenhouse, Ashby, Lever, SmartRecruiters, Workable, Recruitee, BambooHR, Personio) in Python,
 JavaScript, Google Sheets and n8n.
 
-The data comes from a daily-refreshed database of 48,000+ open jobs, served by ready-made tools on
+The data comes from a daily-refreshed database of 60,000+ open jobs, served by ready-made tools on
 [Apify](https://apify.com/worthwhile_quinsy). You need a free Apify account and its API token; tools are billed per
 result, and the free monthly credit covers trying every example.
 

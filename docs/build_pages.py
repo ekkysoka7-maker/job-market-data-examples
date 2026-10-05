@@ -23,9 +23,13 @@ SUITE = "https://apify.com/worthwhile_quinsy"
 KAGGLE = "https://www.kaggle.com/datasets/ekkysoka/startup-hiring-and-salary-benchmarks-2026"
 REPO = "https://github.com/ekkysoka7-maker/job-market-data-examples"
 SNAPSHOT_ISO = "2026-10-04"
+JOBS_LABEL = "48,000"
 _SNAP_FILE = DATA / "snapshot.json"  # written by the daily data bot
 if _SNAP_FILE.exists():
-    SNAPSHOT_ISO = json.loads(_SNAP_FILE.read_text(encoding="utf-8")).get("date", SNAPSHOT_ISO)
+    _snap = json.loads(_SNAP_FILE.read_text(encoding="utf-8"))
+    SNAPSHOT_ISO = _snap.get("date", SNAPSHOT_ISO)
+    if _snap.get("jobs"):
+        JOBS_LABEL = f"{int(_snap['jobs']) // 1000 * 1000:,}"
 SNAPSHOT = __import__("datetime").date.fromisoformat(SNAPSHOT_ISO).strftime("%B %Y")
 # Per-ATS scrapers that are live on the Apify Store. Add an ATS here once its Actor is published.
 PUBLISHED_ATS = {"greenhouse", "lever", "ashby", "workable", "workday"}
@@ -310,7 +314,7 @@ def build_home(sal: list[dict], comp: list[dict], ats: list[dict]) -> None:
     top = "".join(f"<tr><td><a href='salaries/{slug(r['role'])}.html'>{esc(r['role'])}</a></td>"
                   f"<td class='num'><b>{money(r['m'], 'USD')}</b></td><td class='num'>{r['n']:,}</td></tr>" for r in us)
     hot = "".join(f'<a href="companies/{c["slug"]}.html">{esc(c["company"])} (+{c["last30"]})</a>' for c in [c for c in comp if c["open"] < 1000][:18])
-    body = f"""<h1>Job market data from 48,000 startup job postings</h1>
+    body = f"""<h1>Job market data from {JOBS_LABEL} startup job postings</h1>
 <p class="lead">Free salary benchmarks, the startups hiring fastest, and which job boards they use, read directly from the
 public job boards of 1,200+ tech companies. Snapshot {SNAPSHOT}; live data is refreshed daily.</p>
 <div class="stats"><div class="stat"><b>{sum(r['n'] for r in sal):,}</b><span>salary data points</span></div>
@@ -326,7 +330,7 @@ pay per result, no code needed, with a free monthly credit.<br>
 <a class="btn" href="{SUITE}/ats-jobs-search">Search 48k open jobs</a><a class="btn alt" href="{SUITE}/tech-salary-data-api">Salary API</a>
 <a class="btn alt" href="{SUITE}/company-hiring-trends">Hiring trends</a><a class="btn alt" href="{REPO}">Code examples</a></div>"""
     page("index.html", "Job Market Data: Startup Salaries, Hiring Trends and ATS Share (2026)",
-         "Free startup salary benchmarks by role, the companies hiring fastest and ATS market share, from 48,000 job "
+         f"Free startup salary benchmarks by role, the companies hiring fastest and ATS market share, from {JOBS_LABEL} job "
          "postings on company job boards.", body,
          [{"@context": "https://schema.org", "@type": "Dataset", "name": "Startup Hiring and Salary Benchmarks 2026",
            "description": "Salary benchmarks by role and country, fastest-hiring startups and ATS market share from "
