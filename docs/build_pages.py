@@ -22,8 +22,11 @@ BASE = "https://ekkysoka7-maker.github.io/job-market-data-examples"
 SUITE = "https://apify.com/worthwhile_quinsy"
 KAGGLE = "https://www.kaggle.com/datasets/ekkysoka/startup-hiring-and-salary-benchmarks-2026"
 REPO = "https://github.com/ekkysoka7-maker/job-market-data-examples"
-SNAPSHOT = "October 2026"
 SNAPSHOT_ISO = "2026-10-04"
+_SNAP_FILE = DATA / "snapshot.json"  # written by the daily data bot
+if _SNAP_FILE.exists():
+    SNAPSHOT_ISO = json.loads(_SNAP_FILE.read_text(encoding="utf-8")).get("date", SNAPSHOT_ISO)
+SNAPSHOT = __import__("datetime").date.fromisoformat(SNAPSHOT_ISO).strftime("%B %Y")
 # Per-ATS scrapers that are live on the Apify Store. Add an ATS here once its Actor is published.
 PUBLISHED_ATS = {"greenhouse", "lever", "ashby", "workable", "workday"}
 ATS_NAMES = {"greenhouse": "Greenhouse", "lever": "Lever", "ashby": "Ashby", "workable": "Workable",

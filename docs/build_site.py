@@ -5,6 +5,8 @@ Run from the examples repo root: python docs/build_site.py [data/salary_benchmar
 from __future__ import annotations
 
 import csv
+import json as _json
+from datetime import date as _date
 import json
 import sys
 from pathlib import Path
@@ -12,6 +14,12 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 SUITE = "https://apify.com/worthwhile_quinsy"
 
+
+
+def _snapshot_label() -> str:
+    p = Path(__file__).resolve().parent.parent / "data" / "snapshot.json"
+    iso = _json.loads(p.read_text(encoding="utf-8")).get("date") if p.exists() else "2026-10-04"
+    return _date.fromisoformat(iso).strftime("%B %Y")
 
 def rows(path: Path) -> list[dict]:
     out = []
@@ -114,6 +122,6 @@ if __name__ == "__main__":
     data = rows(src)
     total = sum(x["n"] for x in data)
     html = (PAGE.replace("__DATA__", json.dumps(data, separators=(",", ":"))).replace("__N__", f"{total:,}")
-            .replace("__DATE__", "October 2026").replace("__SUITE__", SUITE))
+            .replace("__DATE__", _snapshot_label()).replace("__SUITE__", SUITE))
     (HERE / "explorer.html").write_text(html, encoding="utf-8")
     print("wrote docs/explorer.html with", len(data), "rows,", total, "postings")
