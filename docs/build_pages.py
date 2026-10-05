@@ -102,7 +102,8 @@ def page(path: str, title: str, desc: str, body: str, jsonld: list | None = None
 <style>{CSS}</style>{ld}</head><body>
 <header><a class="brand" href="{up}index.html">Job Market Data</a>
 <a href="{up}salaries/index.html">Salaries</a><a href="{up}companies/index.html">Who is hiring</a>
-<a href="{up}ats/index.html">ATS share</a><a href="{up}explorer.html">Salary Explorer</a></header>
+<a href="{up}ats/index.html">ATS share</a><a href="{up}reports/index.html">Reports</a>
+<a href="{up}explorer.html">Salary Explorer</a></header>
 <main>{body}</main>
 <footer>Data: public job postings read from company job boards (Greenhouse, Ashby, Lever, SmartRecruiters, Workable and
 others), snapshot {SNAPSHOT}. Pay is the midpoint of each published range; a posted range is not an offer.
@@ -309,6 +310,98 @@ board and board URL back.<br><a class="btn" href="{SUITE}/ats-detector">Try ATS 
          f"SmartRecruiters, Workable and more.", body)
 
 
+REPORTS_SRC = ROOT / "reports"   # Markdown written by the daily data bot (State of Startup Hiring, one per month)
+
+
+def _inline(t: str) -> str:
+    t = esc(t)
+    t = re.sub(r"\[([^\]]+)\]\((https?://[^)\s]+)\)", r'<a href="\2">\1</a>', t)
+    t = re.sub(r"(?<![\"'>=])(https?://[^\s<)]+)", r'<a href="\1">\1</a>', t)
+    t = re.sub(r"\*\*([^*]+)\*\*", r"<b>\1</b>", t)
+    t = re.sub(r"(?<![*\w])\*([^*]+)\*(?!\w)", r"<i>\1</i>", t)
+    return t
+
+
+def md_to_html(md: str) -> tuple[str, str]:
+    """Small Markdown subset (headings, lists, tables, paragraphs, bold, italics, links) -> (title, html)."""
+    out, title, para, rows, items = [], "", [], [], []
+
+    def flush():
+        nonlocal para, rows, items
+        if para:
+            out.append(f"<p>{_inline(' '.join(para))}</p>")
+        if items:
+            out.append("<ul>" + "".join(f"<li>{_inline(i)}</li>" for i in items) + "</ul>")
+        if rows:
+            cells = [[c.strip() for c in r.strip().strip("|").split("|")] for r in rows]
+            body = [c for c in cells[1:] if not all(re.fullmatch(r":?-{2,}:?", x) for x in c)]
+            out.append('<div class="card"><table><thead><tr>' + "".join(f"<th>{_inline(c)}</th>" for c in cells[0])
+                       + "</tr></thead><tbody>" + "".join("<tr>" + "".join(f"<td>{_inline(c)}</td>" for c in r)
+                                                          + "</tr>" for r in body) + "</tbody></table></div>")
+        para, rows, items = [], [], []
+
+    for line in md.splitlines():
+        l = line.rstrip()
+        if not l.strip():
+            flush()
+        elif l.startswith("# "):
+            flush()
+            title = l[2:].strip()
+            out.append(f"<h1>{_inline(title)}</h1>")
+        elif l.startswith("## "):
+            flush()
+            out.append(f"<h2>{_inline(l[3:].strip())}</h2>")
+        elif l.lstrip().startswith("|"):
+            if para or items:
+                flush()
+            rows.append(l)
+        elif l.startswith("- "):
+            if para or rows:
+                flush()
+            items.append(l[2:])
+        else:
+            if rows or items:
+                flush()
+            para.append(l.strip())
+    flush()
+    return title, "\n".join(out)
+
+
+REPORTS: list[tuple[str, str, str]] = []   # (month, title, path)
+
+
+def build_reports() -> None:
+    shutil.rmtree(DOCS / "reports", ignore_errors=True)
+    REPORTS.clear()
+    files = sorted(REPORTS_SRC.glob("state-of-startup-hiring-*.md"), reverse=True) if REPORTS_SRC.exists() else []
+    for f in files:
+        month = f.stem.rsplit("-", 2)[-2] + "-" + f.stem.rsplit("-", 1)[-1]
+        title, body = md_to_html(f.read_text(encoding="utf-8"))
+        path = f"reports/{f.stem}.html"
+        cta = (f'<div class="cta"><strong>Get these numbers live</strong> for any role, country or company.<br>'
+               f'<a class="btn" href="{SUITE}/tech-salary-data-api">Salary API</a>'
+               f'<a class="btn alt" href="{SUITE}/company-hiring-trends">Hiring trends</a>'
+               f'<a class="btn alt" href="{SUITE}/ats-jobs-search">Search jobs</a></div>')
+        page(path, f"{title} | Job Market Data", f"{title}: startup pay by role, the fastest-hiring companies and ATS "
+             "share, computed from public job postings.", body + cta,
+             [{"@context": "https://schema.org", "@type": "Article", "headline": title, "dateModified": SNAPSHOT_ISO,
+               "author": {"@type": "Person", "name": "Ekky Soka"}}])
+        REPORTS.append((month, title, path))
+    if REPORTS:
+        lis = "".join(f'<li><a href="{p.split("/", 1)[1]}">{esc(t)}</a></li>' for _, t, p in REPORTS)
+        page("reports/index.html", "State of Startup Hiring: Monthly Reports | Job Market Data",
+             "Monthly reports on startup salaries, hiring momentum and ATS share from public job postings.",
+             f"<h1>State of Startup Hiring</h1><p class='lead'>A monthly look at startup pay and hiring, computed "
+             f"from public job postings. The current month updates daily.</p><ul>{lis}</ul>")
+
+
+def latest_report_link() -> str:
+    if not REPORTS:
+        return ""
+    _, t, p = REPORTS[0]
+    return f'<h2>Latest report</h2><p><a href="{p}">{esc(t)} →</a></p>'
+
+
 def build_home(sal: list[dict], comp: list[dict], ats: list[dict]) -> None:
     us = sorted((r for r in sal if r["country"] == "US"), key=lambda r: -r["n"])[:12]
     top = "".join(f"<tr><td><a href='salaries/{slug(r['role'])}.html'>{esc(r['role'])}</a></td>"
@@ -316,7 +409,7 @@ def build_home(sal: list[dict], comp: list[dict], ats: list[dict]) -> None:
     hot = "".join(f'<a href="companies/{c["slug"]}.html">{esc(c["company"])} (+{c["last30"]})</a>' for c in [c for c in comp if c["open"] < 1000][:18])
     body = f"""<h1>Job market data from {JOBS_LABEL} startup job postings</h1>
 <p class="lead">Free salary benchmarks, the startups hiring fastest, and which job boards they use, read directly from the
-public job boards of 1,200+ tech companies. Snapshot {SNAPSHOT}; live data is refreshed daily.</p>
+public job boards of over a thousand tech companies. Snapshot {SNAPSHOT}; live data is refreshed daily.</p>
 <div class="stats"><div class="stat"><b>{sum(r['n'] for r in sal):,}</b><span>salary data points</span></div>
 <div class="stat"><b>{len({r['role'] for r in sal})}</b><span>roles with salary pages</span></div>
 <div class="stat"><b>{len(comp)}</b><span>fast-growing companies</span></div>
@@ -324,10 +417,11 @@ public job boards of 1,200+ tech companies. Snapshot {SNAPSHOT}; live data is re
 <h2>Most common roles: US startup pay</h2><div class="card"><table><thead><tr><th>Role</th><th class="num">Median</th>
 <th class="num">Postings</th></tr></thead><tbody>{top}</tbody></table></div>
 <p><a href="salaries/index.html">All {len({r['role'] for r in sal})} roles →</a> · <a href="explorer.html">Interactive Salary Explorer →</a></p>
+{latest_report_link()}
 <h2>Startups hiring fastest</h2><div class="grid">{hot}</div><p><a href="companies/index.html">All {len(comp)} companies →</a></p>
 <div class="cta"><strong>Use this data in your own tools</strong> Every number here comes from ready-made data tools on Apify:
 pay per result, no code needed, with a free monthly credit.<br>
-<a class="btn" href="{SUITE}/ats-jobs-search">Search 48k open jobs</a><a class="btn alt" href="{SUITE}/tech-salary-data-api">Salary API</a>
+<a class="btn" href="{SUITE}/ats-jobs-search">Search {JOBS_LABEL[:-4]}k open jobs</a><a class="btn alt" href="{SUITE}/tech-salary-data-api">Salary API</a>
 <a class="btn alt" href="{SUITE}/company-hiring-trends">Hiring trends</a><a class="btn alt" href="{REPO}">Code examples</a></div>"""
     page("index.html", "Job Market Data: Startup Salaries, Hiring Trends and ATS Share (2026)",
          f"Free startup salary benchmarks by role, the companies hiring fastest and ATS market share, from {JOBS_LABEL} job "
@@ -364,6 +458,7 @@ def main() -> None:
     build_salaries(sal)
     build_companies(comp)
     build_ats(ats, comp)
+    build_reports()
     build_home(sal, comp, ats)
     PAGES.append(f"{BASE}/explorer.html")
     sm = "".join(f"<url><loc>{u}</loc><lastmod>{SNAPSHOT_ISO}</lastmod></url>" for u in PAGES)
