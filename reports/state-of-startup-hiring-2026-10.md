@@ -31,10 +31,10 @@
 | Company | New roles (30 days) | Before | Top teams |
 |---|---|---|---|
 | NBCUniversal | 297 | 97 | Other; Production; Engineering |
-| Capco | 272 | 144 | Business Consulting; Tech & Engineering; Data & Analytics |
+| Capco | 272 | 142 | Business Consulting; Tech & Engineering; Data & Analytics |
 | Stripe | 262 | 172 | Account Executives (EMEA); Global Operations; General University |
-| Avery Dennison | 257 | 104 | Operations; Sales; Customer Service & Support |
 | SOCOTEC Global | 257 | 84 | Production; Engineering; Training |
+| Avery Dennison | 257 | 104 | Operations; Sales; Customer Service & Support |
 | Rocket Lab USA | 248 | 130 | USA Space Systems; Space Systems BD; Space Systems Software |
 | ACCEL Schools | 245 | 7 | School Support; Special Education; Elementary Teaching |
 | Shield AI | 218 | 101 | Hivemind Solutions Division; X-BAT Division; Aircraft Operations Division |
