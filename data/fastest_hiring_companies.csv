@@ -129,6 +129,7 @@ Coursera,https://www.coursera.org/,,,greenhouse,15,11,2,0,Partner Success Servic
 AlphaSense,,,,greenhouse,202,72,37,0.56,Engineering; Customer Success; Financial Services Sales
 Everlaw,,,,greenhouse,40,16,5,0.2,Sales; Business Development; Engineering
 Turing,https://www.turing.com/,,,greenhouse,30,16,5,0.37,Enterprise AI Engineering; R&D / Engineering; Frontier Data Operations
+AlayaCare,,,,greenhouse,27,16,5,0,PSO North America; Engineering; PSO Australia
 Solidigm,,,,smartrecruiters,62,35,16,0.03,Datacenter Engineering; NAND Development; Engineering
 Juno,https://junocompanion.com/,Healthcare,2,greenhouse,12,9,1,1.0,Graduate Student Loans; Finance; Operations/CX
 Relay,,,,greenhouse,32,14,4,0,Customer Success; Accounting & Finance; Engineering
@@ -149,6 +150,7 @@ Wabash Valley Power Alliance,,,,smartrecruiters,24,17,6,0,Engineering & Operatio
 Antares Nuclear,,,,ashby,84,42,21,0,Reactor Hardware Engineering; Internships; Manufacturing & Quality
 42 North Dental,,,,greenhouse,169,52,27,0,Dental Assistants; Dental Hygienists; PCR - Patient Care Representative
 Nooks,,,,ashby,57,15,5,0.23,GTM; Customer Success & Support; Engineering
+Hotjar,https://careers.hotjar.com/,,,lever,29,15,5,0.17,Sales; Finance; Customer Success
 Qumulo,,,,ashby,25,10,2,0.64,Engineering; Sales; Systems Engineering
 Platzi,https://platzi.com,B2B,123,workable,13,10,2,0,CrossFunctional; Other; Enterprise
 "Abricare, Inc.",,,,greenhouse,13,10,2,0,Operations; Growth
@@ -166,7 +168,6 @@ Wonderschool,,,,greenhouse,44,16,6,0.14,Wonderschool Substitutes (SubPool); Engi
 Centria Healthcare,,,,greenhouse,37,16,6,0,Private Duty Nursing; Rehab; PDN Business Support
 incident.io,,,,ashby,35,16,6,0.03,Sales; Product Development; Customer Success
 Amylyx Pharmaceuticals,,,,greenhouse,30,16,6,0.03,- Finance; - Biometrics; - IT
-AlayaCare,,,,greenhouse,27,16,6,0,PSO North America; Engineering; PSO Australia
 Revel,,,,ashby,25,11,3,0,Software Engineering; Product; Internship
 Outset,https://outset.ai/,B2B,30,ashby,23,11,3,0.04,People; Customer Success; Sales
 Apex Skin,,,,greenhouse,17,11,3,0,General Dermatology Clinics; Marketing; Compliance
@@ -187,7 +188,6 @@ Blackbird Health,,,,greenhouse,86,23,11,0.52,Remote; Operations; Occupational Th
 ANINE BING,,,,greenhouse,18,12,4,0,Retail US; Retail UK; Retail Canada
 Natera,https://natera.com,,,greenhouse,199,76,45,0.22,Oncology Sales; Phlebotomy Solutions; Women's Health Sales
 Arcesium LLC,,,,greenhouse,49,15,6,0,Technology; Product; Client and Partner Development
-Hotjar,https://careers.hotjar.com/,,,lever,29,15,6,0.17,Sales; Finance; Customer Success
 Primer,https://primer.io/careers,,,ashby,29,15,6,0.83,Engineering; Sales; Merchant Experience
 Dropbox,https://www.dropbox.com/,,,greenhouse,39,18,8,1.0,Prod - DocSend (Sub Team); CSO Projects & Vendor Management (Sub Team); Direct Sales - AMER (Sub Team)
 Algolia,http://www.algolia.com,B2B,810,greenhouse,38,18,8,0.5,Direct Sales; R&D; Production Engineering
@@ -278,6 +278,7 @@ Infisical,https://infisical.com,B2B,50,ashby,11,7,2,1.0,Sales; Design; Marketing
 Sysdig,https://www.sysdig.com/careers/open-positions,,,lever,29,14,7,0.97,Engineering; Support; Sales
 Cerebras,,,,ashby,117,32,20,0.11,Software Engineering; IT & Security; Hardware
 Gusto,https://gusto.com,B2B,2400,greenhouse,94,32,20,0.15,Engineering; Customer Experience; Sales
+Tandem Health,https://tandemhealth.ai,,,ashby,61,18,10,0.07,Commercial; Product & Engineering; Medical Operations
 Oyster HR,https://www.oysterhr.com/,,,ashby,26,11,5,0.77,Operations; Product Development; Go To Market
 GoCardless,http://gocardless.com,Fintech,900,greenhouse,25,11,5,0,Product Development; Operations; Customer
 Razorpay,https://razorpay.com,Fintech,2700,greenhouse,21,11,5,0,Product Management; Mid Market Sales; Banking Solutions
@@ -298,4 +299,3 @@ Duplo,https://www.tryduplo.com/,Fintech,13,bamboohr,4,4,0,0.25,Technology; Sales
 Somana,,,,ashby,4,4,0,0,Hardware; Platform
 Zepto,,,,bamboohr,4,4,0,1.0,Product; Software Engineering; Security
 Crusoe,,,,ashby,351,127,88,0.03,Manufacturing (MFG); Cloud Engineering; Digital Infrastructure Group (DIG)
-voize,https://voize.de/,B2B,140,ashby,42,22,13,0.36,Tech; Customer Support; Sales
