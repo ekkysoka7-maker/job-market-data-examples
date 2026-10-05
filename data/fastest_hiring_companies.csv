@@ -25,9 +25,9 @@ ACT1 Federal,,,,greenhouse,49,36,4,0,DASN DIB; Evergreen; TASC
 Chowdeck,https://chowdeck.com,Consumer,103,bamboohr,22,22,0,0,Strategy & Operations; Engineering; Brand & Marketing
 Clear,https://clear.in/,Fintech,900,greenhouse,49,30,3,0,Engineering; Sales and Business Development; Aviation
 Focal Systems,http://www.focal.systems,B2B,170,greenhouse,36,26,2,0.25,Field Operations; Engineering; Customer Success
+Advanced Technology Services,,,,greenhouse,111,70,17,0.23,Maintenance Technician; Site Leadership; Engineer
 Metriport,https://metriport.com/,Healthcare,29,ashby,19,19,0,0,Engineering; Operations; Customer Success
 NBCUniversal,,,,smartrecruiters,443,297,97,0.04,Other; Production; Engineering
-Advanced Technology Services,,,,greenhouse,111,70,18,0.23,Maintenance Technician; Site Leadership; Engineer
 SOCOTEC Global,,,,smartrecruiters,735,257,84,0.02,Production; Engineering; Training
 Astro Mechanica,https://astromecha.co/,Industrials,52,ashby,38,21,1,0.05,Propulsion; Manufacturing; Executive
 Robinhood,,,,greenhouse,162,79,22,0.02,Customer Care; ENG Infrastructure; Crypto Engineering
@@ -55,8 +55,8 @@ Campfire,https://campfire.ai,B2B,105,ashby,50,22,4,0,Sales; Implementation & Cus
 FlixTrain,https://flix.careers,,,greenhouse,152,88,33,0,FlixTrain Office; Operations; Human Resources
 Mapbox,https://www.mapbox.com/,,,ashby,44,17,2,0.41,Navigation; Data Services Engineering & Product; Data Services Operations
 ChargePoint,,,,greenhouse,34,21,4,0.35,- Hardware Systems Engineering; - Regional Sales; - NOC
+AbbVie,,,,smartrecruiters,1858,1046,470,0.25,Research; Sales; Other
 Laminar,,,,lever,17,12,0,0.06,Engineering; Finance and Operations; Sales & Marketing
-AbbVie,,,,smartrecruiters,1858,1046,471,0.25,Research; Sales; Other
 Toast,https://pos.toasttab.com/,,,greenhouse,326,136,57,0.25,Sales : Retail Sales AEs; Sales : Strategic Cuisines Sales AEs; Sales : SMB Field Sales AEs
 Gallup,,,,greenhouse,50,27,7,0,Workplace Advisory; Technology; Management Information Systems
 Alan,https://alan.com/,,,ashby,118,66,25,0.37,Engineering; Sales 🇫🇷; Corporate
@@ -204,7 +204,6 @@ Rebar,,,,ashby,13,7,1,0.15,Engineering; Sales; Implementation
 Nox Metals,https://noxmetals.co/,Industrials,35,ashby,9,7,1,0,Operations; Engineering; Customer
 Thndr,http://www.thndr.app,Fintech,235,ashby,8,7,1,0,Tech; Finance; Investment
 Cloudflare,,,,greenhouse,405,149,93,0.13,Solution Engineering; Engineering; Field Sales
-AnaVation,,,,lever,63,27,14,0.03,AnaVation Job Opportunities
 Teleport,https://goteleport.com,B2B,255,ashby,24,10,3,0.96,Engineering; Revenue; People
 BVNK,,,,greenhouse,21,10,3,0.9,Compliance; Technology; Legal/Risk/Regulatory
 Proxima Fusion,,,,ashby,47,16,7,0,"Operations, Manufacturing and Supply Chain; Stellarator Architecture, Plasma Modelling & Research, Numerical Optimization; Magnet Engineering"
@@ -240,9 +239,9 @@ Kivo Health,https://kivohealth.com,Healthcare,40,ashby,5,5,0,0.6,Operations; Exe
 Porter,https://porter.run,B2B,18,greenhouse,5,5,0,0,FOH Operations; BOH Operations; Food & Beverage
 Brumby (Formerly GrazeMate),https://brumby,Industrials,3,ashby,5,5,0,0,Engineering; Flight Operations; Operations
 Enclave,https://enclave.io,,,ashby,5,5,0,0,R&D; Sales; Marketing
+Stripe,http://stripe.com,Fintech,7000,greenhouse,716,262,173,0.16,Account Executives (EMEA); Global Operations; General University
 Brex,,,,greenhouse,282,85,54,0.17,Sales; Engineering; Product
 Allegiantair,,,,lever,62,30,17,0.02,Finance & Accounting; Maintenance; Procurement
-Stripe,http://stripe.com,Fintech,7000,greenhouse,716,262,174,0.16,Account Executives (EMEA); Global Operations; General University
 Klaviyo,https://www.klaviyo.com/,,,greenhouse,133,43,26,0,Engineering; Sales; IT & Security
 AppsFlyer,,,,greenhouse,45,15,7,0,R&D; Finance; Sales
 Amplify Education,https://amplify.com,,,ashby,27,15,7,0.96,Product; Sales; Professional Services
@@ -299,3 +298,4 @@ Fernstone,https://www.fernstone.com,Fintech,5,ashby,4,4,0,0,Operations; Engineer
 Limrun,https://lim.run,B2B,1,greenhouse,4,4,0,0.25,Go To Market; Engineering
 Duplo,https://www.tryduplo.com/,Fintech,13,bamboohr,4,4,0,0.25,Technology; Sales and Business Development; Product
 Somana,,,,ashby,4,4,0,0,Hardware; Platform
+Zepto,,,,bamboohr,4,4,0,1.0,Product; Software Engineering; Security
