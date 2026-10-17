@@ -1,60 +1,60 @@
 # State of Startup Hiring: October 2026
 
-*71,180 open jobs from the public job boards of tech startups, read directly from their applicant tracking systems (Greenhouse, Ashby, Lever, Workable, SmartRecruiters and others). Pay figures come only from postings that publish a range.*
+*71,364 open jobs from the public job boards of tech startups, read directly from their applicant tracking systems (Greenhouse, Ashby, Lever, Workable, SmartRecruiters and others). Pay figures come only from postings that publish a range.*
 
 ## The numbers in one minute
 
-- **Software Engineer (US):** median $212k, middle half $185k to $251k (2041 postings, 373 companies).
-- **Best-paid common roles:** Research Engineer $325k, Director of Engineering $305k, Research Scientist $274k.
+- **Software Engineer (US):** median $213k, middle half $185k to $251k (2052 postings, 372 companies).
+- **Best-paid common roles:** Research Engineer $325k, Director of Engineering $306k, Research Scientist $274k.
 - **Pay bands are wide:** the typical gap between P25 and P75 is $40k.
 - **Remote vs pay:** correlation 0.09 across US roles, so remote roles are not paid less.
-- **Hiring bursts:** the 10 fastest-hiring startups posted 31% of the 1,962 new roles among accelerating companies.
+- **Hiring bursts:** the 10 fastest-hiring startups posted 28% of the 2,126 new roles among accelerating companies.
 - **ATS:** Greenhouse and Ashby host 70% of open startup jobs.
 
 ## US pay by role (10 most common)
 
 | Role | Median | P25 to P75 | Postings | Remote |
 |---|---|---|---|---|
-| Engineering Manager | $258k | $238k to $288k | 239 | 21% |
-| Machine Learning Engineer | $245k | $212k to $276k | 139 | 27% |
-| Software Engineer | $212k | $185k to $251k | 2041 | 18% |
-| Product Manager | $209k | $175k to $240k | 571 | 35% |
-| Technical Program Manager | $207k | $171k to $246k | 187 | 9% |
-| Forward Deployed Engineer | $202k | $170k to $235k | 137 | 18% |
-| Product Designer | $202k | $168k to $233k | 162 | 25% |
-| Enterprise Account Executive | $177k | $147k to $288k | 198 | 43% |
-| Mechanical Engineer | $162k | $134k to $192k | 144 | 4% |
-| Account Executive | $158k | $112k to $225k | 316 | 30% |
+| Engineering Manager | $258k | $238k to $288k | 237 | 21% |
+| Machine Learning Engineer | $245k | $211k to $276k | 142 | 27% |
+| Software Engineer | $213k | $185k to $251k | 2052 | 18% |
+| Product Manager | $210k | $175k to $240k | 571 | 35% |
+| Technical Program Manager | $207k | $171k to $253k | 189 | 8% |
+| Product Designer | $205k | $174k to $234k | 164 | 25% |
+| Forward Deployed Engineer | $202k | $170k to $235k | 136 | 18% |
+| Enterprise Account Executive | $177k | $148k to $288k | 200 | 44% |
+| Mechanical Engineer | $162k | $134k to $192k | 145 | 4% |
+| Account Executive | $158k | $113k to $225k | 315 | 30% |
 
 ## Who is hiring fastest
 
 | Company | New roles (30 days) | Before | Top teams |
 |---|---|---|---|
-| Tether | 139 | 18 | Data; Engineering; Other |
-| CHAOS Industries | 89 | 19 | Engineering; Business Operations |
-| Stand Together | 61 | 26 | Koch Internship Program; Americans for Prosperity; Marketing & Communications |
-| Despegar | 58 | 17 | Commercial; IT & UX; Global Partners |
+| Tether | 131 | 18 | Data; Engineering; Other |
+| CHAOS Industries | 92 | 17 | Engineering; Business Operations |
+| Despegar | 60 | 20 | Commercial; IT & UX; Global Partners |
+| Stand Together | 59 | 28 | Koch Internship Program; Americans for Prosperity; Marketing & Communications |
 | OpenGov | 57 | 19 | Sales; Professional Services; Engineering |
 | ACT1 Federal | 46 | 2 | Evergreen; DASN DIB; TASC |
-| Clear | 42 | 6 | Engineering; Sales and Business Development; Aviation |
-| Instructure | 42 | 11 | Sales & Marketing; Research & Development; Client Services |
-| Tanium | 37 | 17 | Engineering - Shared Services; Solution Engineering; Development Sales |
-| Barnes & Thornburg | 36 | 28 | Legal; Business Professionals; Law Students |
+| Instructure | 44 | 11 | Sales & Marketing; Research & Development; Client Services |
+| Clear | 40 | 10 | Engineering; Sales and Business Development; Aviation |
+| Barnes & Thornburg | 37 | 27 | Legal; Business Professionals; Law Students |
+| The Brattle Group | 35 | 11 | Securities; METRICS; Human Resources |
 
-Busiest industries among accelerating companies (where industry is known): B2B (184 new roles), Fintech (138 new roles), Industrials (64 new roles).
+Busiest industries among accelerating companies (where industry is known): B2B (195 new roles), Fintech (120 new roles), Industrials (65 new roles).
 
 ## Which ATS startups use
 
 | ATS | Open jobs | Share |
 |---|---|---|
-| Greenhouse | 35,295 | 49.6% |
-| Ashby | 14,620 | 20.5% |
-| Smartrecruiters | 10,867 | 15.3% |
-| Lever | 6,011 | 8.4% |
+| Greenhouse | 35,349 | 49.5% |
+| Ashby | 14,639 | 20.5% |
+| Smartrecruiters | 10,894 | 15.3% |
+| Lever | 6,062 | 8.5% |
 | Workday | 2,000 | 2.8% |
-| Workable | 1,775 | 2.5% |
-| Recruitee | 373 | 0.5% |
-| Bamboohr | 205 | 0.3% |
+| Workable | 1,814 | 2.5% |
+| Recruitee | 366 | 0.5% |
+| Bamboohr | 206 | 0.3% |
 | Personio | 34 | 0.0% |
 
 ## Method
