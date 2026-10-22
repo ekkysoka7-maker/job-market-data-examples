@@ -1,59 +1,59 @@
 # State of Startup Hiring: October 2026
 
-*76,671 open jobs from the public job boards of tech startups, read directly from their applicant tracking systems (Greenhouse, Ashby, Lever, Workable, SmartRecruiters and others). Pay figures come only from postings that publish a range.*
+*76,620 open jobs from the public job boards of tech startups, read directly from their applicant tracking systems (Greenhouse, Ashby, Lever, Workable, SmartRecruiters and others). Pay figures come only from postings that publish a range.*
 
 ## The numbers in one minute
 
-- **Software Engineer (US):** median $210k, middle half $183k to $250k (2124 postings, 388 companies).
+- **Software Engineer (US):** median $211k, middle half $183k to $250k (2133 postings, 386 companies).
 - **Best-paid common roles:** Research Engineer $320k, Director of Engineering $306k, Research Scientist $274k.
 - **Pay bands are wide:** the typical gap between P25 and P75 is $40k.
 - **Remote vs pay:** correlation 0.11 across US roles, so remote roles are not paid less.
-- **Hiring bursts:** the 10 fastest-hiring startups posted 36% of the 3,581 new roles among accelerating companies (excluding large enterprises: AECOM).
-- **ATS:** Greenhouse and Ashby host 67% of open startup jobs.
+- **Hiring bursts:** the 10 fastest-hiring startups posted 34% of the 3,700 new roles among accelerating companies (excluding large enterprises: AECOM).
+- **ATS:** Greenhouse and Ashby host 68% of open startup jobs.
 
 ## US pay by role (10 most common)
 
 | Role | Median | P25 to P75 | Postings | Remote |
 |---|---|---|---|---|
-| Engineering Manager | $258k | $238k to $288k | 245 | 22% |
-| Machine Learning Engineer | $243k | $208k to $276k | 154 | 27% |
-| Product Manager | $210k | $176k to $243k | 579 | 34% |
-| Software Engineer | $210k | $183k to $250k | 2124 | 18% |
-| Technical Program Manager | $207k | $171k to $254k | 186 | 8% |
-| Forward Deployed Engineer | $202k | $170k to $234k | 147 | 17% |
-| Product Designer | $201k | $175k to $232k | 176 | 24% |
-| Enterprise Account Executive | $175k | $149k to $285k | 206 | 45% |
+| Engineering Manager | $256k | $238k to $288k | 244 | 22% |
+| Machine Learning Engineer | $245k | $207k to $276k | 153 | 26% |
+| Software Engineer | $211k | $183k to $250k | 2133 | 17% |
+| Product Manager | $210k | $177k to $240k | 579 | 33% |
+| Technical Program Manager | $208k | $171k to $258k | 183 | 7% |
+| Product Designer | $205k | $175k to $232k | 175 | 23% |
+| Forward Deployed Engineer | $202k | $170k to $234k | 146 | 17% |
+| Enterprise Account Executive | $177k | $150k to $285k | 204 | 46% |
 | Mechanical Engineer | $162k | $134k to $190k | 151 | 4% |
-| Account Executive | $160k | $115k to $215k | 343 | 34% |
+| Account Executive | $159k | $115k to $216k | 344 | 34% |
 
 ## Who is hiring fastest
 
 | Company | New roles (30 days) | Before | Top teams |
 |---|---|---|---|
-| ServiceNow | 460 | 161 | Sales; Engineering, Infrastructure and Operations; Product |
-| Everpure | 159 | 110 | Sales; Engineering; Services & Support |
+| ServiceNow | 450 | 178 | Sales; Engineering, Infrastructure and Operations; Product |
+| Everpure | 153 | 113 | Sales; Engineering; IT |
 | Tether | 137 | 17 | Data; Engineering; Other |
-| CHAOS Industries | 95 | 13 | Engineering; Business Operations |
-| Blackbird Health | 80 | 7 | Remote; Gaithersburg, MD; Pittsburgh, PA |
-| Airbnb | 78 | 32 | Software Engineering; Community Support; Business Development |
-| Whoop | 76 | 22 | Software; Global Supply Chain & Operations; Hardware |
-| Atoms | 73 | 31 | Transport - Engineering; Transport - Operations; Construction |
-| Stand Together | 72 | 27 | Koch Internship Program; Americans for Prosperity; Marketing & Communications |
-| ICEYE | 72 | 31 | Engineering; Global Manufacturing Organization; Missions |
+| Airbnb | 89 | 31 | Software Engineering; Community Support; Business Development |
+| Blackbird Health | 81 | 9 | Remote; Gaithersburg, MD; Pittsburgh, PA |
+| Whoop | 75 | 23 | Software; Global Supply Chain & Operations; Hardware |
+| Stand Together | 72 | 26 | Koch Internship Program; Americans for Prosperity; Marketing & Communications |
+| ICEYE | 72 | 32 | Engineering; Global Manufacturing Organization; Missions |
+| PA Consulting | 69 | 24 | Consulting; Corporate; Digital |
+| Atoms | 66 | 38 | Transport - Engineering; Transport - Operations; Construction |
 
-Busiest industries among accelerating companies (where industry is known): B2B (202 new roles), Fintech (149 new roles), Consumer (134 new roles).
+Busiest industries among accelerating companies (where industry is known): B2B (238 new roles), Fintech (166 new roles), Consumer (147 new roles).
 
 ## Which ATS startups use
 
 | ATS | Open jobs | Share |
 |---|---|---|
-| Greenhouse | 36,496 | 47.6% |
-| Ashby | 15,215 | 19.8% |
-| Smartrecruiters | 14,368 | 18.7% |
-| Lever | 6,154 | 8.0% |
-| Workday | 2,000 | 2.6% |
-| Workable | 1,824 | 2.4% |
-| Recruitee | 370 | 0.5% |
+| Greenhouse | 36,435 | 47.6% |
+| Ashby | 15,259 | 19.9% |
+| Smartrecruiters | 14,462 | 18.9% |
+| Lever | 6,135 | 8.0% |
+| Workday | 1,995 | 2.6% |
+| Workable | 1,717 | 2.2% |
+| Recruitee | 373 | 0.5% |
 | Bamboohr | 208 | 0.3% |
 | Personio | 36 | 0.0% |
 
