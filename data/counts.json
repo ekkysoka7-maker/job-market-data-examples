@@ -1,36 +1,36 @@
 {
- "date": "2026-10-31",
- "jobs": 76621,
+ "date": "2026-11-01",
+ "jobs": 76628,
  "boards": 1593,
  "by_ats": {
-  "greenhouse": 36413,
-  "ashby": 15305,
-  "smartrecruiters": 14554,
-  "lever": 6114,
+  "greenhouse": 36400,
+  "ashby": 15322,
+  "smartrecruiters": 14524,
+  "lever": 6128,
   "workday": 2000,
-  "workable": 1598,
-  "recruitee": 396,
+  "workable": 1618,
+  "recruitee": 395,
   "bamboohr": 205,
   "personio": 36
  },
  "niches": {
-  "ai_ml": 7413,
-  "early_career": 4350,
-  "yc": 11984,
+  "ai_ml": 7418,
+  "early_career": 4334,
+  "yc": 12000,
   "visa": 1733,
-  "remote": 14847
+  "remote": 14853
  },
  "categories": {
-  "sales": 7813,
-  "product": 1913,
+  "sales": 7812,
+  "product": 1916,
   "cybersecurity": 1766,
-  "data": 1491,
-  "devops": 1299,
+  "data": 1493,
+  "devops": 1300,
   "design": 702,
   "web3": 119
  },
  "quality_pct": {
-  "has_country": 95.3,
+  "has_country": 95.4,
   "has_salary": 39.5,
   "has_date": 99.7,
   "has_seniority": 100.0,
