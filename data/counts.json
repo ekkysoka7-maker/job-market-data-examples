@@ -1,12 +1,12 @@
 {
- "date": "2026-11-01",
- "jobs": 76628,
- "boards": 1593,
+ "date": "2026-11-02",
+ "jobs": 76692,
+ "boards": 1596,
  "by_ats": {
-  "greenhouse": 36400,
-  "ashby": 15322,
-  "smartrecruiters": 14524,
-  "lever": 6128,
+  "greenhouse": 36395,
+  "ashby": 15398,
+  "smartrecruiters": 14515,
+  "lever": 6130,
   "workday": 2000,
   "workable": 1618,
   "recruitee": 395,
@@ -14,15 +14,15 @@
   "personio": 36
  },
  "niches": {
-  "ai_ml": 7418,
-  "early_career": 4334,
-  "yc": 12000,
+  "ai_ml": 7428,
+  "early_career": 4342,
+  "yc": 12078,
   "visa": 1733,
-  "remote": 14853
+  "remote": 14860
  },
  "categories": {
-  "sales": 7812,
-  "product": 1916,
+  "sales": 7824,
+  "product": 1919,
   "cybersecurity": 1766,
   "data": 1493,
   "devops": 1300,
