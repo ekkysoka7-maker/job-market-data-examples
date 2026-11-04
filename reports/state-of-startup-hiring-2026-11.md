@@ -1,60 +1,60 @@
 # State of Startup Hiring: November 2026
 
-*76,604 open jobs from the public job boards of tech startups, read directly from their applicant tracking systems (Greenhouse, Ashby, Lever, Workable, SmartRecruiters and others). Pay figures come only from postings that publish a range.*
+*76,536 open jobs from the public job boards of tech startups, read directly from their applicant tracking systems (Greenhouse, Ashby, Lever, Workable, SmartRecruiters and others). Pay figures come only from postings that publish a range.*
 
 ## The numbers in one minute
 
-- **Software Engineer (US):** median $211k, middle half $184k to $250k (2143 postings, 372 companies).
-- **Best-paid common roles:** Research Engineer $340k, Director of Engineering $299k, Research Scientist $274k.
+- **Software Engineer (US):** median $212k, middle half $185k to $250k (2135 postings, 372 companies).
+- **Best-paid common roles:** Research Engineer $340k, Director of Engineering $304k, Research Scientist $274k.
 - **Pay bands are wide:** the typical gap between P25 and P75 is $40k.
 - **Remote vs pay:** correlation 0.09 across US roles, so remote roles are not paid less.
-- **Hiring bursts:** the 10 fastest-hiring startups posted 30% of the 3,754 new roles among accelerating companies.
+- **Hiring bursts:** the 10 fastest-hiring startups posted 29% of the 3,936 new roles among accelerating companies.
 - **ATS:** Greenhouse and Ashby host 67% of open startup jobs.
 
 ## US pay by role (10 most common)
 
 | Role | Median | P25 to P75 | Postings | Remote |
 |---|---|---|---|---|
-| Engineering Manager | $258k | $235k to $288k | 239 | 20% |
-| Machine Learning Engineer | $245k | $207k to $276k | 152 | 28% |
-| Software Engineer | $211k | $184k to $250k | 2143 | 17% |
-| Product Manager | $210k | $175k to $240k | 568 | 35% |
-| Technical Program Manager | $209k | $171k to $253k | 204 | 8% |
-| Product Designer | $205k | $177k to $235k | 170 | 22% |
-| Forward Deployed Engineer | $202k | $166k to $235k | 142 | 16% |
+| Engineering Manager | $254k | $238k to $288k | 242 | 19% |
+| Machine Learning Engineer | $245k | $207k to $276k | 153 | 28% |
+| Software Engineer | $212k | $185k to $250k | 2135 | 17% |
+| Product Manager | $210k | $175k to $240k | 577 | 35% |
+| Technical Program Manager | $207k | $171k to $243k | 207 | 8% |
+| Product Designer | $205k | $178k to $236k | 167 | 22% |
+| Forward Deployed Engineer | $200k | $165k to $235k | 141 | 16% |
 | Enterprise Account Executive | $178k | $146k to $288k | 205 | 45% |
-| Electrical Engineer | $164k | $137k to $198k | 148 | 2% |
-| Account Executive | $160k | $124k to $225k | 353 | 38% |
+| Electrical Engineer | $164k | $136k to $198k | 150 | 2% |
+| Account Executive | $160k | $120k to $229k | 350 | 38% |
 
 ## Who is hiring fastest
 
 | Company | New roles (30 days) | Before | Top teams |
 |---|---|---|---|
-| Accenture Federal Services | 285 | 126 | - AFS Cloud Platform Engineering; - AFS Enterprise Data Solutions; - AFS ServiceNow |
-| Tether | 132 | 20 | Engineering; Product​; Other |
+| Accenture Federal Services | 296 | 120 | - AFS Cloud Platform Engineering; - AFS Enterprise Data Solutions; - AFS ServiceNow |
+| Tether | 126 | 15 | Engineering; Product​; Other |
 | CHAOS Industries | 118 | 21 | Engineering; Business Operations; Manufacturing |
-| Affirm | 107 | 37 | Consumer Engineering; Infrastructure Platform Eng; Checkout |
-| Airbnb | 99 | 31 | Software Engineering; Community Support; Business Development |
-| ALTEN Technology USA | 93 | 40 | Engineering; Automotive; Aerospace |
-| Saronic | 91 | 43 | Manufacturing; Engineering; Mission Ops |
-| Skydio | 80 | 32 | Operations; R&D |
-| Despegar | 70 | 22 | Commercial; Global Partners; IT & UX |
-| OpenGov | 63 | 22 | Professional Services; Sales; Engineering |
+| Affirm | 110 | 37 | Consumer Engineering; Infrastructure Platform Eng; Checkout |
+| Airbnb | 103 | 30 | Software Engineering; Community Support; Business Development |
+| Saronic | 96 | 43 | Manufacturing; Engineering; Mission Ops |
+| Skydio | 82 | 28 | Operations; R&D |
+| Despegar | 71 | 17 | Commercial; Global Partners; IT & UX |
+| OpenGov | 65 | 22 | Professional Services; Sales; Customer Success |
+| Zoox | 61 | 34 | Software; Vehicle Development; Manufacturing Operations |
 
-Busiest industries among accelerating companies (where industry is known): B2B (347 new roles), Fintech (151 new roles), Consumer (140 new roles).
+Busiest industries among accelerating companies (where industry is known): B2B (399 new roles), Fintech (151 new roles), Consumer (145 new roles).
 
 ## Which ATS startups use
 
 | ATS | Open jobs | Share |
 |---|---|---|
-| Greenhouse | 36,334 | 47.4% |
-| Ashby | 15,341 | 20.0% |
-| Smartrecruiters | 14,523 | 19.0% |
-| Lever | 6,310 | 8.2% |
+| Greenhouse | 36,234 | 47.3% |
+| Ashby | 15,383 | 20.1% |
+| Smartrecruiters | 14,550 | 19.0% |
+| Lever | 6,317 | 8.3% |
 | Workday | 2,000 | 2.6% |
-| Workable | 1,458 | 1.9% |
-| Recruitee | 395 | 0.5% |
-| Bamboohr | 208 | 0.3% |
+| Workable | 1,422 | 1.9% |
+| Recruitee | 380 | 0.5% |
+| Bamboohr | 215 | 0.3% |
 | Personio | 35 | 0.0% |
 
 ## Method
