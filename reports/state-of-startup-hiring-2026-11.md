@@ -8,7 +8,7 @@
 - **Best-paid common roles:** Research Engineer $340k, Director of Engineering $304k, Research Scientist $274k.
 - **Pay bands are wide:** the typical gap between P25 and P75 is $40k.
 - **Remote vs pay:** correlation 0.09 across US roles, so remote roles are not paid less.
-- **Hiring bursts:** the 10 fastest-hiring startups posted 29% of the 3,936 new roles among accelerating companies.
+- **Hiring bursts:** the 10 fastest-hiring startups posted 29% of the 3,922 new roles among accelerating companies.
 - **ATS:** Greenhouse and Ashby host 67% of open startup jobs.
 
 ## US pay by role (10 most common)
@@ -41,7 +41,7 @@
 | OpenGov | 65 | 22 | Professional Services; Sales; Customer Success |
 | Zoox | 61 | 34 | Software; Vehicle Development; Manufacturing Operations |
 
-Busiest industries among accelerating companies (where industry is known): B2B (399 new roles), Fintech (151 new roles), Consumer (145 new roles).
+Busiest industries among accelerating companies (where industry is known): B2B (390 new roles), Fintech (149 new roles), Consumer (145 new roles).
 
 ## Which ATS startups use
 

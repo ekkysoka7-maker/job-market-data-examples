@@ -57,11 +57,11 @@ Capula,,,,workable,14,7,1,0,Trading; Technology Development; Trading Business Ma
 JUPUS,https://jupus.de,,,ashby,7,6,0,0.14,GTM; Operations
 Findem,https://www.findem.ai/,,,lever,7,5,1,0.29,Others; Product; Marketing
 Sola,https://www.sola-solutions.com/,B2B,5,ashby,7,3,0,0.14,Engineering; GTM; Product
-Lio (formerly askLio),https://www.lio.ai,B2B,80,ashby,26,22,2,0,Go-To-Market; Engineering; Implementation
+Lio (formerly askLio),https://www.lio.ai,B2B,80,ashby,26,13,11,0,Go-To-Market; Engineering; Implementation
 Pace,,,,ashby,38,17,5,0,Go To Market; Applied AI; Engineering
 Bitpanda,,,,greenhouse,36,20,7,0,"Engineering & Technology; Growth, Marketing & Communications; Legal & Compliance & Risk"
 Relling,https://relling.co,B2B,,ashby,12,5,7,0.08,Engineering; Operations; GTM
-bunq,https://bunq.com,,,recruitee,27,19,8,0,"Support & Operations; Risk, Legal & Compliance; Growth"
+bunq,https://bunq.com,,,recruitee,27,18,9,0,"Support & Operations; Risk, Legal & Compliance; Growth"
 Vitalize,https://vitalize.care,Healthcare,28,ashby,20,12,0,0.6,Customer Experience; Product & Eng; Growth
 Mesh,https://mesh.ai/,B2B,50,greenhouse,25,11,3,0.56,Engineering; Finance; Product
 Puppet,https://puppet.com/,,,lever,10,7,1,0.2,Finance; Development; Product
@@ -132,7 +132,7 @@ BitGo,,,,greenhouse,56,27,5,0.05,Engineering; Sales; Trust
 Vox Media (Product Team),https://www.voxmedia.com/,,,greenhouse,20,7,5,0.2,Vox Media Podcast Network; Branded Content; People
 1-800 Contacts,,,,greenhouse,10,5,2,0.2,IT - Software Engineering; Distribution Center; Marketing
 People Culture Talent,,,,ashby,10,4,5,0.3,Engineering; People & Talent; All Departments
-Oaknorth,https://oaknorth,,,ashby,27,20,4,0,Debt Finance; Finance; Credit
+Oaknorth,https://oaknorth,,,ashby,27,18,6,0,Debt Finance; Finance; Credit
 Airbnb,http://airbnb.com,Consumer,6132,greenhouse,213,103,30,0.11,Software Engineering; Community Support; Business Development
 OpenGov,,,,ashby,98,65,22,0,Professional Services; Sales; Customer Success
 ACLU - Internships,,,,greenhouse,61,21,39,0.64,Legal; ASNI Internal Operations; National Political & Advocacy
@@ -172,9 +172,9 @@ Column,https://column.com,,,ashby,24,8,2,0.29,Go-to-Market; Product & Engineerin
 BBYO,,,,greenhouse,20,8,4,0.2,Community Impact - US; Community Impact - International; Movement Experiences
 Udacity,https://www.udacity.com/,,,greenhouse,24,7,0,1.0,Mentors; Session Lead; External Contractors
 Bobbie,,,,greenhouse,12,7,1,0.83,Growth; Manufacturing; Brand & Marketing
-Stream,http://www.stream.claims,Fintech,15,ashby,8,6,2,0.5,Engineering; Sales; Customer Success
 Gauss Labs,,,,lever,12,4,2,0,Tech; Stay in touch — join our talent pool.; Staff
 Flint,https://withflint.com,Healthcare,50,ashby,8,4,1,0,Client Services; Engineering
+Stream,http://www.stream.claims,Fintech,15,ashby,8,4,4,0.5,Engineering; Sales; Customer Success
 Intellum,https://www.intellum.com,,,greenhouse,4,3,0,1.0,Marketing; Other; Account Management
 Time Doctor,https://www.timedoctor.com/,,,recruitee,4,3,1,1.0,Marketing; Product; DevOps
 Comena,https://comena.ai,B2B,8,ashby,8,2,0,0,GTM; Engineering
