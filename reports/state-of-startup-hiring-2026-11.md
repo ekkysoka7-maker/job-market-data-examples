@@ -8,7 +8,7 @@
 - **Best-paid common roles:** Research Engineer $340k, Research Scientist $310k, Director of Engineering $304k.
 - **Pay bands are wide:** the typical gap between P25 and P75 is $40k.
 - **Remote vs pay:** correlation 0.10 across US roles, so remote roles are not paid less.
-- **Hiring bursts:** the 10 fastest-hiring startups posted 28% of the 4,186 new roles among accelerating companies.
+- **Hiring bursts:** the 10 fastest-hiring startups posted 28% of the 4,173 new roles among accelerating companies.
 - **ATS:** Greenhouse and Ashby host 67% of open startup jobs.
 
 ## US pay by role (10 most common)
@@ -31,7 +31,7 @@
 | Company | New roles (30 days) | Before | Top teams |
 |---|---|---|---|
 | Accenture Federal Services | 302 | 124 | - AFS Cloud Platform Engineering; - AFS Enterprise Data Solutions; - AFS ServiceNow |
-| Tether | 123 | 28 | Engineering; Other; Product​ |
+| Tether | 120 | 31 | Engineering; Other; Product​ |
 | CHAOS Industries | 114 | 25 | Engineering; Business Operations; Manufacturing |
 | Affirm | 110 | 37 | Consumer Engineering; Checkout; Infrastructure Platform Eng |
 | Coinbase | 109 | 73 | Customer Experience; Internships & Emerging Talent Positions; Engineering - Backend |
@@ -39,7 +39,7 @@
 | Saronic | 95 | 44 | Manufacturing; Engineering; Mission Ops |
 | Skydio | 75 | 35 | Operations; R&D |
 | Despegar | 66 | 19 | Commercial; IT & UX; Global Partners |
-| OpenGov | 66 | 21 | Professional Services; Sales; Customer Success |
+| OpenGov | 64 | 23 | Professional Services; Sales; Customer Success |
 
 Busiest industries among accelerating companies (where industry is known): B2B (426 new roles), Consumer (147 new roles), Fintech (135 new roles).
 
