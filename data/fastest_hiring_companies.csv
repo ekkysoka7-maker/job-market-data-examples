@@ -1,118 +1,121 @@
 company,website,industry,team_size,ats,open_jobs,jobs_posted_last_30_days,jobs_posted_previous_30_days,remote_share,top_departments
-Turion Space,https://turionspace.com/,Industrials,15,ashby,17,17,0,0,Software; Hardware; Commercial
+Turion Space,https://turionspace.com/,Industrials,15,ashby,18,18,0,0,Software; Hardware; Commercial
+Great Question,https://greatquestion.co,B2B,41,ashby,6,6,0,1.0,Product; Engineering; Sales
 Doppler,https://doppler.com,B2B,25,ashby,6,5,0,1.0,Sales; General; Product
-Great Question,https://greatquestion.co,B2B,41,ashby,5,5,0,1.0,Product; Engineering; Sales
 Foxglove,https://foxglove.dev,,,ashby,5,4,0,0.6,Engineering; Go to Market
-Ansa Biotechnologies,http://ansabio.com,Healthcare,72,greenhouse,9,6,1,0,Commercial; Manufacturing; Finance
 Verto,http://www.vertofx.com,Fintech,170,ashby,4,3,0,0,Business Operations; Commercial; Finance
 Ohr,https://ohr.xyz,,,ashby,15,13,2,0.27,R&D; Engineering; Corporate Development
-Nox Metals,https://noxmetals.co/,Industrials,52,ashby,37,33,3,0,Operations; Engineering; Marketing
+Nox Metals,https://noxmetals.co/,Industrials,52,ashby,36,32,3,0,Operations; Engineering; Marketing
+Modern Tribe,https://tri.be/,,,lever,33,23,2,0.03,CAM Robotics; Automated Driving Advanced Development; Human Interactive Driving
+Ansa Biotechnologies,http://ansabio.com,Healthcare,72,greenhouse,9,5,2,0,Commercial; Manufacturing; Finance
+Wafer,https://www.wafer.ai,B2B,15,ashby,6,5,0,0,Engineering; Operations
 Duolingo,,,,greenhouse,6,5,1,0,University
-Zup,https://zup.com.br/,,,greenhouse,3,3,0,0,Itaú; Zup Innovation
 Clueso,https://clueso.io,B2B,25,ashby,3,3,0,0.33,Product Design; Growth; Sales
-Grey,https://grey.co,Fintech,15,bamboohr,3,3,0,1.0,Engineering; Marketing and Communications; Product
 HockeyStack,https://hockeystack.com,B2B,32,ashby,3,2,0,0.67,Finance; Engineering; People
 15Five,https://www.15five.com,,,lever,3,2,1,1.0,Revenue Organization; R&D
 CrazyGames,https://www.crazygames.com,,,recruitee,3,2,1,1.0,Product; Publishing
 Ollie,https://www.myollie.com,,,lever,3,2,1,1.0,Customer Experience; RD&E and Science; Supply Chain
+StreamNative,https://streamnative.io/careers,,,greenhouse,3,2,0,1.0,Sales; Platform Engineering
 Ambition,https://ambition.com,B2B,55,ashby,3,2,1,0.33,Product
 Mastra,https://mastra.ai,B2B,30,ashby,3,2,0,1.0,Growth; Engineering
 Phase Biolabs,https://www.phasebiolabs.com/,Industrials,10,ashby,3,2,0,0,Process Engineering; General
+Verifiable,https://verifiable.com/,Healthcare,12,lever,3,1,1,1.0,Customer Success; Engineering
 Renaissance,https://www.renaissance.com/,,,greenhouse,14,12,1,1.0,Sales; Customer Education; HR
-Puppet,https://puppet.com/,,,lever,14,11,1,0.14,Development; Finance; Sales
 Brooke Charter Schools,,,,greenhouse,25,17,1,0,Lead Teachers; Student Support; Associate Teacher Program
-GOAT Group,https://www.goatgroup.com/,Consumer,1600,greenhouse,21,20,1,0.1,Operations; Marcom; Retail
-vCluster Labs,https://vcluster.com,,,ashby,40,32,3,1.0,Customer Engineering; Engineering; Sales
 Glitch,https://www.glitch.com/,,,ashby,15,14,1,0.4,Company Operations; Technology; Games
 Tolmo,https://www.tolmo.com,B2B,12,ashby,5,5,0,0,Engineering; Go To Market
 Namecheap,https://www.namecheap.com,,,recruitee,5,4,1,1.0,Product; Cloud; Business Intelligence
-Modern Tribe,https://tri.be/,,,lever,29,19,2,0.03,Automated Driving Advanced Development; Human Interactive Driving; CAM Robotics
+STARK BANK,https://starkbank.com,Fintech,70,lever,5,1,2,0,Legal; Risk; Finance
+Findem,https://www.findem.ai/,,,lever,7,5,1,0.29,Others; Product; Marketing
 Dave,https://dave.com/,,,ashby,9,7,1,1.0,Marketing; Data & AI; Legal
+GOAT Group,https://www.goatgroup.com/,Consumer,1600,greenhouse,20,18,2,0.1,Operations; Marcom; Retail
+Puppet,https://puppet.com/,,,lever,11,8,1,0.18,Development; Finance; Sales
 Bluestone Physician Services,,,,greenhouse,26,14,10,0,Geriatrics (Provider); ADAPT (Provider); Behavioral Health (Provider)
 Multiply Labs,http://multiplylabs.com/,Industrials,36,lever,13,6,0,0,Hardware; General Interest; Robotics Software
+LatchBio,,,,ashby,32,22,2,0.44,MOTS Research; Engineering; Research
+Coursera,https://www.coursera.org/,,,greenhouse,36,23,10,0,Sales; Partner Success Services; Customer Success
 Quo (fka OpenPhone),https://www.quo.com,B2B,125,ashby,11,11,0,1.0,Engineering; Support; Revenue
-"Center for Strategic and International Studies, Inc.",,,,greenhouse,23,19,2,0,External Relations; Economics Program and Scholl Chair in International Business; Conferencing
-LatchBio,,,,ashby,31,21,2,0.42,Research; Engineering; Operations
 Altana,,,,greenhouse,39,24,10,0.18,Sales and Delivery; Implementation; Engineering
-Lio (formerly askLio),https://www.lio.ai,B2B,80,ashby,30,20,8,0,Go-To-Market; Engineering; Implementation
+"Center for Strategic and International Studies, Inc.",,,,greenhouse,24,19,3,0,External Relations; Economics Program and Scholl Chair in International Business; Conferencing
 Pump.co,https://www.pump.co/,Fintech,75,greenhouse,18,17,0,0,Marketing; Sales; Engineering
-Thndr,http://www.thndr.app,Fintech,235,ashby,16,11,5,0,Tech; Brokerage; Investment
 Recidiviz,https://www.recidiviz.org/,Government,120,greenhouse,12,6,3,1.0,Data; State Engagment; Product
-Reality Defender,http://www.realitydefender.com,B2B,54,ashby,6,5,1,0.5,Sales and Growth; Engineering; Product
 Squire Technologies,http://getsquire.com/,Consumer,150,ashby,4,4,0,0,"Product, Design & Engineering; Business Operations; Sales"
+Andromeda Surgical,http://www.andromedasurgical.com,Healthcare,12,ashby,6,3,3,0,Engineering; Hardware; Quality
 Cosine,http://www.cosine.sh,B2B,12,ashby,4,3,1,0,Machine Learning; EOI
 Wallbit,https://wallbit.io,Fintech,17,ashby,4,3,0,0.25,Talent; Engineering; Operations
 Decoda Health,https://decodahealth.com/,Healthcare,19,ashby,4,2,2,0,Go To Market; Engineering & Product
 True Link,https://www.truelinkfinancial.com/,Fintech,100,ashby,4,2,0,1.0,Design; Investment Platform; Operations
 Distru,https://distru.com,,,lever,4,1,0,1.0,Product; Talent pool: apply to be considered for future opportunities; Engineering
-Appen,https://www.appen.com/,,,lever,27,14,8,0.85,AI Data Opportunities; Crowd
-Coursera,https://www.coursera.org/,,,greenhouse,32,21,9,0,Sales; Partner Success Services; Sales & Enterprise
-Bugcrowd,,,,greenhouse,13,10,2,0.92,Operations : Security Operations; G&A : Cybersecurity; R&D : Engineering
+Alice Bob,,,,lever,50,27,12,0,Quantum Hardware & Infrastructure; People & Culture; Firmware
+AssemblyAI,https://www.assemblyai.com,B2B,65,greenhouse,19,11,4,1.0,Sales; Engineering; Customer Experience
+Lio (formerly askLio),https://www.lio.ai,B2B,80,ashby,30,19,9,0,Go-To-Market; Engineering; Implementation
 Astro Mechanica,https://astromecha.co/,Industrials,52,ashby,44,28,11,0.05,Manufacturing; Internships; Airframe
-Scribd,https://www.scribd.com/,,,ashby,22,16,3,0.09,"Product, Design, & Analytics; Engineering; Customer Operations"
-Alice Bob,,,,lever,49,26,12,0,Quantum Hardware & Infrastructure; People & Culture; Firmware
-AssemblyAI,https://www.assemblyai.com,B2B,65,greenhouse,18,10,4,1.0,Sales; Engineering; Customer Experience
+Appen,https://www.appen.com/,,,lever,27,14,8,0.85,AI Data Opportunities; Crowd
 Uare.ai,,,,greenhouse,9,8,0,0.11,Engineering; Marketing
-Quora,https://www.quora.com,,,ashby,9,6,2,1.0,Engineering; Product Management
 Uniswap,,,,ashby,9,4,0,0,Engineering; Ecosystem; Marketing
-Alamar Biosciences,,,,greenhouse,37,22,6,0.22,Sales; Commercial Team; Operations
-Findem,https://www.findem.ai/,,,lever,7,5,1,0.29,Others; Product; Marketing
+Bitpanda,,,,greenhouse,43,24,8,0,"Engineering & Technology; Growth, Marketing & Communications; Product & Design"
+Thndr,http://www.thndr.app,Fintech,235,ashby,16,11,5,0,Tech; Brokerage; Investment
+SpruceID,https://www.spruceid.com,Government,25,ashby,7,4,0,1.0,Engineering; Product
+Somana,,,,ashby,7,4,3,0,Platform; Hardware; Business
 Sola,https://www.sola-solutions.com/,B2B,5,ashby,7,3,0,0.14,Engineering; GTM; Product
-Pace,,,,ashby,38,17,5,0,Go To Market; Applied AI; Engineering
-Relling,https://relling.co,B2B,,ashby,12,5,7,0.08,Engineering; Operations; GTM
+Text.ai,https://www.text.ai/,Consumer,4,lever,7,3,0,0,Partnerships; Messaging; Operations
+CharterUP,,,,greenhouse,19,15,3,0.63,Enterprise Operations; Marketplace Sales; Finance & Accounting
+Alamar Biosciences,,,,greenhouse,36,21,7,0.22,Sales; Commercial Team; China
+Mesh,https://mesh.ai/,B2B,50,greenhouse,24,10,3,0.58,Engineering; Finance; Product
+Bugcrowd,,,,greenhouse,12,9,2,0.92,Operations : Security Operations; G&A : Cybersecurity; R&D : Engineering
+American Institutes for Research,,,,greenhouse,15,12,2,1.0,"R51 - Employment & Economic Opp; R13 - Learning Supports; CGP - Contracts, Grants and Procurement"
 Atomic,https://www.atomicvest.com/,B2B,25,ashby,10,6,3,1.0,Engineering; Brokerage Operations; Legal and Compliance
 Lightspeed,https://www.lightspeedhq.com/,,,ashby,10,6,4,0,Engineering; Operations
+Sage,,,,greenhouse,10,5,0,0.2,Business Development; Client Success; Operations
+Reality Defender,http://www.realitydefender.com,B2B,54,ashby,5,5,0,0.4,Engineering; Product; Sales and Growth
 Chariot Claims,https://chariotclaims.com,,,ashby,10,4,1,1.0,Engineering; Legal Strategy; Marketing
 Kingdom,https://kingdomsuperculture.com,Healthcare,21,ashby,5,2,1,0,Science; Business and Operations
 Laminar,https://laminar.com,B2B,15,ashby,5,2,0,0.4,Engineering and Research; Operations
 Ploy,https://ploy.ai,B2B,14,ashby,5,2,0,0,Go-To-Market; Engineering; Product
-"IPS Group, Inc.",https://www.ipsgroupinc.com/,,,bamboohr,5,2,3,0.4,Sales US; RMA & Repairs US; Engineering
-STARK BANK,https://starkbank.com,Fintech,70,lever,5,1,2,0,Legal; Risk; Finance
-CharterUP,,,,greenhouse,18,14,3,0.61,Enterprise Operations; Marketplace Sales; Finance & Accounting
-Vox Media (Product Team),https://www.voxmedia.com/,,,greenhouse,21,8,5,0.19,Vox Media Podcast Network; Branded Content; People
-Bitpanda,,,,greenhouse,37,22,7,0,"Engineering & Technology; Growth, Marketing & Communications; Product & Design"
-Revel,,,,ashby,32,13,6,0,Software Engineering; Product; Marketing
-Mesh,https://mesh.ai/,B2B,50,greenhouse,24,10,3,0.58,Engineering; Finance; Product
-InfluxData,https://influxdata.com,B2B,210,ashby,8,4,2,1.0,Sales; Finance; Engineering
+Octopus Deploy,https://octopus.com/,,,greenhouse,5,2,0,0.4,Expressions of Interest; - IT
+BVNK,,,,greenhouse,38,22,9,0.84,Technology; Legal/Risk/Regulatory; Compliance
+Pace,,,,ashby,38,16,6,0,Go To Market; Applied AI; Engineering
+CircuitHub,https://circuithub.com,Industrials,58,ashby,13,11,0,0.62,Software Engineering; Hardware Engineering; Production
+Reacher,https://reacherapp.com/,B2B,10,ashby,13,6,0,0.92,Engineering; Sales; Marketing
+Focal Systems,http://www.focal.systems,B2B,170,greenhouse,45,17,20,0.2,Field Operations; Engineering; Customer Support and Analytics
+Instructure,https://www.instructure.com/,,,ashby,61,46,8,0.77,Sales & Marketing; Research & Development; Client Services
+Quora,https://www.quora.com,,,ashby,8,5,2,1.0,Engineering
 Stable,https://useStable.com,B2B,60,ashby,8,4,3,0.62,Marketing; Mail Operations; Product
-RemoteBase,https://remotebase.com,,,workable,8,4,2,1.0,Engineering Department; Core
-Sumble,https://sumble-inc.workable.com,,,workable,8,4,0,1.0,Other; Engineering
 SalesPatriot,https://www.salespatriot.com/,B2B,15,ashby,8,3,0,0,Core Team
 Hamming AI,https://hamming.ai/,B2B,10,ashby,8,3,0,0,Engineering; GTM
+ASTRO PAK,,,,greenhouse,38,33,2,0.16,Field Services; Cleanroom; EHS&R
+Scribd,https://www.scribd.com/,,,ashby,22,14,5,0.09,"Product, Design, & Analytics; Engineering; Customer Operations"
 Aspora,https://aspora.com,Fintech,85,ashby,11,7,1,0.09,Engineering; Compliance; Customer Support
+1-800 Contacts,,,,greenhouse,11,5,2,0.18,Distribution Center; IT - Software Engineering; Marketing
 Clariti Cloud Inc.,,,,greenhouse,11,5,3,1.0,Professional Services; Software Engineering; Marketing
-Funding Circle,https://funding circle,,,ashby,28,20,5,0,Product Engineering; Data; Sales
+Funding Circle,https://funding circle,,,ashby,28,20,5,0,"Data; Product Engineering; Collections, Recoveries & Litigation"
 Trellis AI,https://runtrellis.com/,B2B,34,ashby,14,14,0,0.5,Sales/PMM; Engineering; Deployment
-American Institutes for Research,,,,greenhouse,14,10,3,1.0,"R13 - Learning Supports; R10 - Healthcare Innovations; CGP - Contracts, Grants and Procurement"
-Zoox,https://zoox.com,,,lever,229,63,37,0,Software; Vehicle Development; Manufacturing Operations
-Brandwatch,,,,greenhouse,17,11,3,0.41,- Lead Generation; - Information Security; - Accounting & Tax
+ClassPass,,,,greenhouse,48,30,4,0.02,Sales; Marketing; Engineering
 Juicebox,https://juicebox.ai/,B2B,100,ashby,38,17,5,0,Sales; Customer Success; Engineering
-ASTRO PAK,,,,greenhouse,36,31,2,0.17,Field Services; EHS&R; Technical Services
-Tessera Labs,,,,ashby,36,30,0,0.78,Center of Excellence; Product; Platform
 Hiya,,,,ashby,27,17,3,0.07,Engineering; Sales - Customer Success; General Marketing
-"AiDASH, Inc.",,,,greenhouse,18,11,5,0.17,R&D; Sales; Customer Success
+Brandwatch,,,,greenhouse,18,12,3,0.39,- Lead Generation; - Information Security; - Accounting & Tax
+"AiDASH, Inc.",,,,greenhouse,18,10,6,0.17,R&D; Sales; Customer Success
+10a Labs,,,,greenhouse,24,9,1,0.42,AI Safety; Threat Investigators; AI Red Teaming
+Abacus Insights,,,,greenhouse,15,9,3,0.67,TechOps; Client Solutions; Product Management
 Within,http://within.ai,B2B,128,ashby,21,8,3,0,EPD; Marketing; GTM
 MetaMask,https://metamask.io,,,greenhouse,12,6,2,1.0,Marketing; MetaMask; Office of the COO
 Envato,https://envato.com/,,,lever,9,5,4,1.0,Product; Marketing; Content
-Odin,https://useodin.com,,,ashby,6,5,1,0,Product; Engineering; Go-To-Market
-Reacher,https://reacherapp.com/,B2B,10,ashby,12,4,0,0.92,Engineering; Sales; Customer Success
+Relling,https://relling.co,B2B,,ashby,12,4,8,0.08,Engineering; Operations; GTM
 Gauss Labs,,,,lever,12,4,2,0,Tech; Stay in touch — join our talent pool.; Staff
 Apollo,http://apollographql.com/,B2B,200,ashby,9,4,2,1.0,Sales; Engineering; Design
-Modash.io,https://modash.io,,,workable,9,4,4,0.78,Data; Customer Success; Sales
+RemoteBase,https://remotebase.com,,,workable,9,4,3,1.0,Engineering Department; Core
 Longshot Systems,,,,workable,6,4,2,0,Other
-Octopus Deploy,https://octopus.com/,,,greenhouse,6,3,0,0.5,Expressions of Interest; - IT; - Sales
-Somana,,,,ashby,6,3,3,0,Platform; Hardware
 Hudu,https://hudu.com,B2B,26,ashby,3,3,0,1.0,Sales; Marketing; Operations
 Skyward,,,,smartrecruiters,3,3,0,0,IT Services; Programming; Marketing
+Aperia,,,,greenhouse,3,3,0,0,MR; Programming
 Julius,https://julius.ai,B2B,10,ashby,6,2,0,0.33,Engineering; General; Growth & BizOps
 Interfere,https://interfere.com,B2B,8,ashby,6,2,0,0,Product; GTM
 Tendo,https://tendo.app/,Consumer,15,lever,6,2,2,1.0,Analytics; Marketing; Informatics
 Pirros,http://pirros.com,B2B,44,ashby,3,2,0,0,Engineering; ALL; Customer Success
 Inscribe,https://www.inscribe.ai/,B2B,35,ashby,3,2,0,0,Engineering; Customer Success
 GovEagle,https://www.goveagle.com/,Government,25,ashby,3,2,0,0,Sales; Engineering
-Gitbook,https://www.gitbook.com/,,,ashby,3,2,1,1.0,GTM; Product & Engineering
+Zup,https://zup.com.br/,,,greenhouse,3,2,0,0,Zup Innovation; Itaú
 EasyPost,http://easypost.com,B2B,51,lever,3,2,1,1.0,Customer Success; Legal
-Wafer,https://www.wafer.ai,B2B,15,ashby,3,2,0,0,Operations; Engineering
 Belvo,https://belvo.com,Fintech,100,ashby,3,1,0,1.0,CV; Product; Engineering
 Lightdash,http://lightdash.com/,B2B,23,ashby,3,1,0,0.67,Customer Success; Engineering; Go-to-Market
 Serif Health,https://www.serifhealth.com,Healthcare,20,ashby,3,1,2,1.0,Product & Platform Engineering
@@ -121,181 +124,178 @@ Airgoods,https://airgoods.com/,B2B,10,ashby,3,1,0,0,Growth & Operations; Enginee
 Proof of Human,https://poh.org,B2B,5,ashby,3,1,2,0.33,GTM; Engineering; Sales
 Newton,https://joinnewton.com,B2B,4,greenhouse,3,1,1,0.67,Sales
 madewithlove,https://madewithlove.com,,,recruitee,3,1,0,1.0,madewithlove; for clients
-Verifiable,https://verifiable.com/,Healthcare,12,lever,3,1,1,1.0,Customer Success; Engineering
-Sixfold Bioscience,https://www.sixfold.bio,Healthcare,27,greenhouse,3,0,0,0.33,Technology; Product Management
-Ojin,https://ojin.ai,,,greenhouse,3,0,2,1.0,Business Development; Marketing; Tech
+vCluster Labs,https://vcluster.com,,,ashby,40,22,13,1.0,Customer Engineering; Engineering; Sales
 Outset,https://outset.ai/,B2B,30,ashby,34,22,4,0.29,Sales; Engineering; Customer Success
-Tether,https://careers.tether.io,,,recruitee,245,120,31,0.99,Engineering; Other; Product​
-Instructure,https://www.instructure.com/,,,ashby,59,44,8,0.76,Sales & Marketing; Research & Development; Client Services
-Cadence Health,,,,greenhouse,22,11,0,1.0,Clinical Navigators; Outbound Enrollment; Registered Nurses
+Turing,https://www.turing.com/,,,greenhouse,44,19,14,0.32,Enterprise AI; Frontier AI; Platform
 AgWest Farm Credit,,,,greenhouse,19,9,2,0,Arizona Lending and Insurance; Pipeline Program; California Lending and Insurance
-Despegar,,,,lever,115,66,19,0.03,Commercial; IT & UX; Global Partners
+Vox Media (Product Team),https://www.voxmedia.com/,,,greenhouse,19,7,5,0.16,Branded Content; People; Vox Media Podcast Network
+Tessera Labs,,,,ashby,35,29,1,0.8,Center of Excellence; Product; Platform
 Acceleration Partners,,,,greenhouse,16,9,4,0,EMEA Client Services Early Career; Affiliate Strategy & Publisher Development; Americas Sales
 KERNEL,https://www.kernel.sh,B2B,22,ashby,16,7,9,0,"Growth, Sales & Marketing; Customer Success & Implementation; Product"
-10a Labs,,,,greenhouse,23,8,1,0.39,AI Safety; Threat Investigators; AI Red Teaming
-Stand Together,,,,lever,135,59,46,0.27,Koch Internship Program; Americans for Prosperity; Marketing & Communications
-Turing,https://www.turing.com/,,,greenhouse,43,19,13,0.33,Frontier AI; Enterprise AI; Platform
-Supabase,https://supabase.com/,,,ashby,70,29,7,1.0,Engineering; Support; Marketing
-HOKALI,https://www.hokali.com/,B2B,12,workable,20,18,2,0,Operations
-Sage,,,,greenhouse,10,5,0,0.2,Business Development; Client Success; Operations
-People Culture Talent,,,,ashby,10,4,5,0.3,Engineering; People & Talent; All Departments
-ClassPass,,,,greenhouse,47,30,4,0.02,Sales; Marketing; Engineering
-ACLU - Internships,,,,greenhouse,61,21,39,0.64,Legal; ASNI Internal Operations; National Political & Advocacy
-BitGo,,,,greenhouse,55,28,4,0.05,Engineering; Sales; Trust
-Gumloop,https://www.gumloop.com/,B2B,44,ashby,14,5,4,0,Sales; Marketing; Customer Success
+Despegar,,,,lever,116,67,20,0.03,Commercial; IT & UX; Global Partners
+nerdwallet,https://www.nerdwallet.com,,,ashby,27,17,7,0.74,Sales; Engineering; Marketing
+ACLU - Internships,,,,greenhouse,61,22,38,0.64,Legal; ASNI Internal Operations; National Political & Advocacy
+BitGo,,,,greenhouse,56,29,4,0.05,Engineering; Sales; Trust
+HOKALI,https://www.hokali.com/,B2B,12,workable,21,19,2,0,Operations
+Junction,https://www.junction.com/,Healthcare,19,ashby,14,6,1,0.86,Engineering; Customer Success; Operations
 Namespace,https://namespace.so,,,ashby,14,5,9,0,Engineering; Go-to-market; Other
 Capula,,,,workable,14,5,3,0,Trading; Technology Development; Trading Business Management
 JUPUS,https://jupus.de,,,ashby,7,5,1,0.14,GTM; Operations
 Resend,https://resend.com/,,,ashby,14,4,5,1.0,Engineering; Customer Success; Sales
 Chronograph,,,,greenhouse,14,4,0,0.07,Client Management; Product; Corporate
-SpruceID,https://www.spruceid.com,Government,25,ashby,7,4,0,1.0,Engineering; Product
+InfluxData,https://influxdata.com,B2B,210,ashby,7,4,2,1.0,Sales; Finance; Marketing
+Attendi,,,,recruitee,7,4,0,0,Product; Other
+Meow,,,,ashby,7,4,1,0,GTM; Engineering; Finance
+Notabene,https://notabene.id,B2B,47,ashby,7,3,1,1.0,Sales; Customer Success; Finance
 Axle Health,https://www.axlehealth.com,Healthcare,28,ashby,7,3,1,0,Engineering; Product; Customer Success
-Text.ai,https://www.text.ai/,Consumer,4,lever,7,3,0,0,Partnerships; Messaging; Operations
 SnapMagic,https://www.snapmagic.com,B2B,23,ashby,7,2,2,0,Operations; Sales; Engineering
-Scout Clean Energy,,,,workable,39,23,8,0,"Engineering, Procurement and Construction; Development; Asset Management and Operations"
-Amplitude,https://amplitude.com,B2B,750,ashby,50,29,11,0.52,Sales; Engineering; Marketing
 Arbor Energy,,,,greenhouse,25,10,3,0.04,Systems; Combustion; Manufacturing
 Pylon,https://www.pylonump.com/,B2B,72,ashby,25,8,6,0.28,Biz Ops; Product; Engineering
-Align Communications,,,,greenhouse,40,14,11,0,"Data Center Solutions: Design, Procure & Build; Managed Services; Career Center / Human Resources"
-CircuitHub,https://circuithub.com,Industrials,58,ashby,11,9,0,0.55,Software Engineering; Hardware Engineering; Production
-1-800 Contacts,,,,greenhouse,11,5,2,0.18,Distribution Center; IT - Software Engineering; Marketing
-Amplify Education,https://amplify.com,,,ashby,37,31,5,0.97,People; Product; Sales
-Oaknorth,https://oaknorth,,,ashby,26,18,5,0,Debt Finance; Finance; Credit
-nerdwallet,https://www.nerdwallet.com,,,ashby,30,19,8,0.77,Sales; Engineering; Marketing
-Airbnb,http://airbnb.com,Consumer,6132,greenhouse,207,105,31,0.1,Software Engineering; Community Support; Business Development
-OpenGov,,,,ashby,98,64,23,0,Professional Services; Sales; Customer Success
-AirGarage,https://www.airgarage.com/,,,ashby,19,10,7,0.26,Operations; Marketing; Sales
+Protex AI,https://www.protex.ai,B2B,5,ashby,18,11,3,0,Commercial; Tech
+Artificial Intelligence Underwriting Company,https://aiuc-1.com,,,ashby,18,6,3,0,Operations; Product & Engineering; GTM
+Align Communications,,,,greenhouse,41,14,12,0,"Data Center Solutions: Design, Procure & Build; Managed Services; Career Center / Human Resources"
+Scout Clean Energy,,,,workable,38,23,8,0,"Engineering, Procurement and Construction; Development; Accounting"
+Thrive Market,https://thrivemarket.com/,,,greenhouse,19,12,4,0.89,Marketing; Product Engineering; Product Design
+CHAOS Industries,,,,greenhouse,172,113,30,0.01,Engineering; Business Operations; Manufacturing
+Heetch,https://heetch.com/,,,lever,23,12,1,0,Fleetch; Sweetch; Global Operations
+OpenGov,,,,ashby,96,63,22,0,Professional Services; Sales; Customer Success
+Loft Orbital,https://loftorbital.com,,,lever,77,30,16,0.05,Software; Operations; Business Operations
+Alloy,,,,greenhouse,31,13,3,0.26,Technical Solutions; Sales; Engineering
+Amplify Education,https://amplify.com,,,ashby,35,30,4,0.97,People; Product; Sales
 Litmus Software,https://litmus.com/,,,ashby,35,14,3,0.2,Customer Success; Engineering; Sales
-Onebrief,https://onebrief.com,B2B,200,ashby,40,22,13,0.55,Customer Relations; Infrastructure & Security; Engineering
-Abacus Insights,,,,greenhouse,16,9,3,0.62,TechOps; Engineering; Client Solutions
-Column,https://column.com,,,ashby,24,8,2,0.29,Go-to-Market; Product & Engineering; Compliance
+Pleo,https://www.pleo.io/,,,ashby,43,31,3,0.19,Commercial; Customer Experience; Revenue Operations
+Amplitude,https://amplitude.com,B2B,750,ashby,51,30,11,0.53,Sales; Engineering; Marketing
+Bedrock Robotics,,,,ashby,59,21,17,0.07,Engineering; Operations; Product Management
+Cadence Health,,,,greenhouse,20,11,0,1.0,Clinical Navigators; Outbound Enrollment; Registered Nurses
+Bobbie,,,,greenhouse,12,6,2,0.83,Growth; Manufacturing; Brand & Marketing
 Flint,https://withflint.com,Healthcare,50,ashby,8,4,1,0,Client Services; Engineering
-Stream,http://www.stream.claims,Fintech,15,ashby,8,4,4,0.5,Engineering; Sales; Customer Success
 Bunkerhill Health,http://bunkerhillhealth.com,Healthcare,30,ashby,8,3,2,0,Engineering; Operations; All
+Sumble,https://sumble-inc.workable.com,,,workable,8,3,1,1.0,Other; Engineering
 Intellum,https://www.intellum.com,,,greenhouse,4,3,0,1.0,Marketing; Other; Account Management
-Time Doctor,https://www.timedoctor.com/,,,recruitee,4,3,1,1.0,Marketing; Product; DevOps
+Snapdocs,http://snapdocs.com,Real Estate and Construction,285,ashby,4,3,0,1.0,Lender; Settlement & Notary; Product
 Comena,https://comena.ai,B2B,8,ashby,8,2,0,0,GTM; Engineering
 Freshpaint,https://freshpaint.io,B2B,120,ashby,4,2,1,1.0,Customer Success; Engineering; Finance
-Benepass,http://www.getbenepass.com,B2B,45,ashby,4,1,3,0.75,Operations; Engineering
 Provision,https://provision.com,B2B,15,ashby,4,1,3,0,Robotics
-Andromeda Surgical,http://www.andromedasurgical.com,Healthcare,12,ashby,4,1,3,0,Engineering
 Hotplate,http://www.hotplate.com/,Consumer,9,ashby,4,1,0,0,Engineering; Other; Marketing
 Superset,https://www.superset.sh/,B2B,4,greenhouse,4,1,2,0.25,Fricative; Majordomo; super{set}
 Valimail,https://www.valimail.com/,,,greenhouse,4,1,2,1.0,Valimail
+Brilliant.org,https://brilliant.org,,,lever,4,1,0,1.0,Content; Engineering
 Endless Access,,,,bamboohr,4,1,3,0.25,Platform & Tools; Devices; Other
 Deeter Analytics,,,,ashby,4,1,0,1.0,Research; Execution; Operations
 90 Seconds,https://90seconds.com/,,,lever,8,0,1,0.62,Sales; Customer Experience; 90 Seconds
 CrateDB,https://cratedb.com,,,personio,4,0,1,0.75,Engineering AT/DE; Finance & Operations AT/DE
-Loft Orbital,https://loftorbital.com,,,lever,78,32,15,0.05,Software; Operations; Business Operations
-Two Circles,,,,workable,33,22,5,0.09,Technology; Rights Management; Marketing and Consulting
-Bedrock Robotics,,,,ashby,58,20,17,0.07,Engineering; Operations; Product Management
-Overview,https://overview.ai,Industrials,40,ashby,63,17,13,0.17,Overview China; Overview US; Overview Taiwan
-Talos,,,,ashby,21,15,1,0,Engineering; Internships; Sales
-Artificial Intelligence Underwriting Company,https://aiuc-1.com,,,ashby,17,5,3,0,Operations; Product & Engineering; GTM
-Pleo,https://www.pleo.io/,,,ashby,43,31,3,0.19,Commercial; Customer Experience; Revenue Operations
-Amylyx Pharmaceuticals,,,,greenhouse,43,22,14,0.02,- Sales & Sales Training; - Clinical Operations; - R&D
-Factory,https://factory.com,,,ashby,69,23,7,0.17,GTM; Operations; Engineering
-WITHIN,,,,greenhouse,78,24,6,0.1,Digital Media; Creative Production; Creative Services
-Switchboard,https://www.onswitchboard.com,B2B,24,ashby,13,7,3,0.38,Yooz; Open Technology Solutions; General
-Fastly,https://www.fastly.com/,,,greenhouse,57,26,12,0.11,Legal; Product Management; Customer Security - CSOC
-Hudl,https://www.hudl.com/,,,greenhouse,44,21,9,0.18,Elite Sales; Product; Competitive Sales
-Heetch,https://heetch.com/,,,lever,22,11,1,0,Fleetch; Sweetch; Global Operations
-Bridgewater Associates,,,,greenhouse,22,11,2,0,Investment Implementation; Alpha Engine; Human Resources
-CHAOS Industries,,,,greenhouse,168,114,25,0.01,Engineering; Business Operations; Manufacturing
-Clear,https://clear.in/,Fintech,900,greenhouse,62,38,11,0,Engineering; Sales and Business Development; Aviation
-ChargePoint,,,,greenhouse,40,17,14,0.42,Hardware Systems Engineering; Regional Sales; IT
-"Abricare, Inc.",,,,greenhouse,18,14,4,0,Operations; Growth
+Supabase,https://supabase.com/,,,ashby,69,25,10,1.0,Engineering; Support; Marketing
+Oaknorth,https://oaknorth,,,ashby,25,17,5,0,Debt Finance; Finance; Credit
+Odeko,http://www.odeko.com,B2B,371,greenhouse,25,13,7,0.04,Operations; Sales & Success; Engineering
+Saronic,,,,ashby,268,102,46,0,Manufacturing; Engineering; Mission Ops
+LemFi,https://lemfi.com,Fintech,500,ashby,21,13,4,0.38,Growth; Finance; Technology
+Absurd Ventures,,,,greenhouse,17,4,2,0,Game Development; General Application; Creative Services
+Nourish,https://nourish.com,Healthcare,250,greenhouse,99,44,22,0.63,Territory Manager; Engineering; Revenue Strategy
+Switchboard,https://www.onswitchboard.com,B2B,24,ashby,13,6,4,0.38,Yooz; Open Technology Solutions; General
+Prosper,https://www.getprosper.ai?utm_source=yc&utm_medium=directory&utm_campaign=yc_directory,B2B,60,ashby,13,4,0,0,Sales; Product; Engineering
+Man Group,https://man group,,,greenhouse,70,32,12,0,Technology; Systematic; Sales
+Onebrief,https://onebrief.com,B2B,200,ashby,40,23,12,0.55,Customer Relations; Infrastructure & Security; Engineering
+Overview,https://overview.ai,Industrials,40,ashby,63,17,14,0.17,Overview China; Overview US; Overview Taiwan
+Mitratech,,,,greenhouse,18,12,2,0.83,Development; Marketing; Finance and Accounting
 Cybernetic Labs,,,,ashby,36,9,2,0.03,"GTM; Engineering, Product, and Design; University"
 Kastle,https://kastle.ai/,B2B,15,ashby,18,8,1,0.06,Engineering; Revenue; Operations
-CentralReach,,,,greenhouse,18,7,7,0.5,Implementation; Customer Success; Engineering Ops
 9 Mothers,https://9mothers.com,Industrials,19,ashby,9,7,1,0,Hardware Engineering; Software Engineering; Executive
+BaubleBar,,,,greenhouse,9,6,3,0.33,Digital Marketing; Merchandising; FP&A
 AIOS,https://www.aiosmedical.com/,Healthcare,100,ashby,18,5,3,0.83,Growth; Company; Engineering
 Groww,https://groww.in,Fintech,1050,greenhouse,9,4,2,0,Growth; Private Wealth; Internal Controls
 Hyperbound,https://hyperbound.ai,B2B,30,ashby,9,4,1,0,GTM; Product
 A24,,,,greenhouse,9,4,3,0,Other; Publicity; Post Production
+Modash.io,https://modash.io,,,workable,9,3,5,0.78,Data; Customer Success; Sales
+Ardent,,,,greenhouse,18,2,6,0.67,Ardent Openings; Other
 AgentMail,https://agentmail.to,B2B,10,ashby,9,2,1,0.11,Engineering; Growth; Operations
 Solidroad,https://solidroad.com,B2B,6,ashby,9,2,0,0,Product; GTM; Operations
 Remora,https://www.remoracarbon.com,Industrials,45,greenhouse,9,2,2,0,Operations; People; Finance
 ID.me,,,,greenhouse,9,2,5,0,Technology; Product; Human Resources
-Skydio,https://skydio.com,,,ashby,194,75,35,0.26,Operations; R&D
-Wizeline,https://www.wizeline.com/,,,greenhouse,37,10,2,0.27,Software Engineering; Mobile Engineering; Visual Design
-TTP,,,,smartrecruiters,51,22,12,0,TTP Group; Cellular Origins; Awerian
+ChargePoint,,,,greenhouse,41,17,15,0.41,Hardware Systems Engineering; Regional Sales; IT
+Revel,,,,ashby,32,8,11,0,Software Engineering; Product; Marketing
+Factory,https://factory.com,,,ashby,69,27,6,0.16,GTM; Marketing; Engineering
+Hudl,https://www.hudl.com/,,,greenhouse,46,22,10,0.17,Elite Sales; Product; Competitive Sales
+Daybreak Health,https://www.daybreakhealth.com/,Healthcare,20,greenhouse,37,25,8,1.0,Clinical; Finance
+Barnes & Thornburg,,,,ashby,130,46,14,0,Legal; Business Professionals; Law Students
 Wikimedia Foundation,,,,greenhouse,14,7,2,1.0,Product & Technology; Communications; Advancement
-Aescape,,,,ashby,14,6,7,0.29,Supply Chain; Sales; Hardware Engineering
+Aescape,,,,ashby,14,5,8,0.29,Supply Chain; Sales; Hardware Engineering
 Prodigal,https://prodigaltech.com/,Fintech,99,greenhouse,14,4,0,0,Customer Success; Analytics; Marketing
-Canopy,https://canopyworks.com,,,greenhouse,14,4,0,0.57,R&D; Sales; CX
+Gumloop,https://www.gumloop.com/,B2B,44,ashby,14,4,5,0,Sales; Marketing; Customer Success
 Footprint,,,,ashby,14,3,1,0,Engineering; GTM; Operations
-Barnes & Thornburg,,,,ashby,131,48,13,0,Legal; Business Professionals; Law Students
-ABC Legal Services,,,,greenhouse,132,35,20,0.23,Process Servers; Operations (Docketly); IT
+Airbnb,http://airbnb.com,Consumer,6132,greenhouse,201,95,35,0.09,Software Engineering; Community Support; Business Development
 ZipRecruiter,,,,greenhouse,52,13,9,0.67,Tech; ISO - New Logo Sales; Product
-Thrive Market,https://thrivemarket.com/,,,greenhouse,19,13,3,0.89,Marketing; Product Engineering; Product Design
 Riot,https://tryriot.com/,B2B,160,workable,19,4,2,0,Sales; Tech; Customer Success
-bunq,https://bunq.com,,,recruitee,24,14,10,0,"Support & Operations; Risk, Legal & Compliance; Growth"
-H1,https://www.h1.co/,Healthcare,500,lever,24,10,5,0.33,Engineering; Product; Sales Reps
+Skydio,https://skydio.com,,,ashby,195,77,35,0.26,Operations; R&D
+Stand Together,,,,lever,134,45,59,0.28,Koch Internship Program; Americans for Prosperity; Marketing & Communications
+Zoox,https://zoox.com,,,lever,238,62,47,0,Software; Vehicle Development; Zoox Internships
 Lightfield,,,,ashby,24,9,2,0,Engineering; GTM; Talent
-Saronic,,,,ashby,261,95,44,0,Manufacturing; Engineering; Mission Ops
-Man Group,https://man group,,,greenhouse,68,30,12,0,Technology; Systematic; Sales
-Bottomline,,,,greenhouse,44,26,10,0,Finance & Legal; Paymode Revenue Operations; Sales
-Mozilla,https://www.mozilla.org/,,,greenhouse,113,54,34,1.0,Firefox; New Products; Infrastructure
-AppsFlyer,,,,greenhouse,54,25,10,0,R&D; Finance; Sales
-Affirm,,,,greenhouse,233,110,37,0.97,Consumer Engineering; Checkout; Infrastructure Platform Eng
-Focal Systems,http://www.focal.systems,B2B,170,greenhouse,45,17,20,0.2,Field Operations; Engineering; Customer Support and Analytics
-BVNK,,,,greenhouse,30,16,8,0.87,Technology; Legal/Risk/Regulatory; Compliance
-WhiteWater Midstream,,,,greenhouse,35,14,2,0,Field; Operations and Admin; Marketing and Logistics
-Odeko,http://www.odeko.com,B2B,371,greenhouse,25,13,7,0.04,Operations; Sales & Success; Engineering
-Shepherd,https://shepherdinsurance.com,Fintech,60,ashby,25,13,4,0,Underwriting; EPD; Actuarial
-Alloy,,,,greenhouse,30,12,3,0.27,Technical Solutions; Engineering; Sales
-NYC,,,,ashby,25,10,6,0,Norm Law; Operations; Marketing
+Column,https://column.com,,,ashby,24,7,3,0.29,Go-to-Market; Product & Engineering; Compliance
+Raft,https://goraft.tech,,,greenhouse,29,16,5,0.07,Engineering; Delivery; N3bula
+Nearform,https://www.nearform.com,,,greenhouse,29,7,0,0,Software Development; Technical Leadership; Solutions
+Tether,https://careers.tether.io,,,recruitee,228,94,40,0.99,Engineering; Product​; Other
+Enova,,,,greenhouse,39,20,9,0.05,Strategy & Operations; Operations; Marketing
+Affirm,,,,greenhouse,235,110,42,0.97,Consumer Engineering; Checkout; Infrastructure Platform Eng
+Tailscale,https://tailscale.com/,,,greenhouse,69,29,14,0.87,Sales; Engineering; Marketing
+Chainguard,https://www.chainguard.dev/,,,greenhouse,99,52,22,1.0,R&D Engineering; Sales Engineering; International Sales
+ABC Legal Services,,,,greenhouse,129,32,20,0.21,Process Servers; Operations (Docketly); IT
+Coinbase,https://www.coinbase.com,,,greenhouse,279,107,75,0.84,Customer Experience; Internships & Emerging Talent Positions; Engineering - Backend
+Weave,http://getweave.com,B2B,600,ashby,30,16,7,0.57,Technology; Marketing; Payments Program Management
+Talos,,,,ashby,20,15,1,0,Internships; Engineering; Sales
 Resultant,,,,smartrecruiters,10,9,1,0.2,Information Technology; MS_Client Success Team; MS_MS Sales and Solutions Team
 Momentic,https://momentic.ai,B2B,18,ashby,5,4,0,0,GTM; Engineering
 Weave,https://weaveos.com,B2B,16,ashby,15,3,1,0,Engineering; Sales; Marketing
 Elyos AI,https://www.elyos.ai/,B2B,20,ashby,10,3,1,0.1,GTM; Engineering; Operations
+Blueberry Pediatrics,https://blueberrypediatrics.com,Healthcare,15,ashby,10,3,2,1.0,Medical; Sales; Operations
 Submittable,https://www.submittable.com/,B2B,302,greenhouse,5,3,1,1.0,Sales & Services; Customer Success; Legal and Compliance
 Viget,,,,lever,5,3,0,0.4,Sales & Marketing; Extended Talent Network; Design
 charity: water,https://www.charitywater.org/,,,lever,5,2,1,1.0,Revenue; Water Programs
-Nuharbor Security,https://nuharborsecurity.com/,,,greenhouse,5,2,0,0.6,Managed Services; Other; Internships
-Nuna Inc,https://www.nuna.com/,,,ashby,5,2,0,0.2,Engineering; Customer Success
-Double,https://www.doublehq.com,B2B,80,ashby,5,1,1,1.0,Success; Engineering; Sales
 LiveFlow,https://www.liveflow.com,B2B,51,ashby,5,1,0,0,Engineering; Finance
-Epsilon3,https://www.epsilon3.io/,B2B,12,lever,5,1,0,0,Engineering; General; GTM
+Ello,https://www.ello.com,Education,45,ashby,5,1,2,0,Engineering; General; Growth
 Veritus,https://www.veritus.com,Fintech,10,ashby,5,1,2,0.2,Operations; Engineering; Sales
 Opencall,https://opencall.ai,B2B,7,ashby,5,1,0,0.4,Engineering; Operations; Sales
 Robotics and AI Institute,,,,lever,5,1,0,0,Engineering; Finance; Research
-ApexIT,,,,greenhouse,51,12,4,0.84,Delivery; Oracle; Project Management Office - PMO
-Daybreak Health,https://www.daybreakhealth.com/,Healthcare,20,greenhouse,36,20,8,1.0,Clinical; Finance
-Chainguard,https://www.chainguard.dev/,,,greenhouse,99,55,18,1.0,R&D Engineering; Sales Engineering; Customer Success Management
-Virta Health,https://www.virtahealth.com,,,ashby,26,18,1,1.0,Product Development; Commercial; Finance & Legal
-Coinbase,https://www.coinbase.com,,,greenhouse,279,109,73,0.84,Customer Experience; Internships & Emerging Talent Positions; Engineering - Backend
-Atom Computing,,,,lever,42,16,15,0,Manufacturing; Control Systems; Quantum Engineering
-Accenture Federal Services,,,,greenhouse,731,302,124,0,- AFS Cloud Platform Engineering; - AFS Enterprise Data Solutions; - AFS ServiceNow
-HUD,https://www.hud.ai,B2B,24,ashby,37,10,16,0.78,Engineering & Research; GTM; Operations
-Nourish,https://nourish.com,Healthcare,250,greenhouse,96,41,21,0.6,Territory Manager; Engineering; Revenue Strategy
-Codes Health,https://www.codeshealth.com/,B2B,35,ashby,16,3,0,0.38,Customer Experience; Operations; Growth
-Arc Institute,,,,greenhouse,27,10,3,0,Technology Centers; Core Laboratories; Operations
-MONUMENTAL,https://monumental.co,,,ashby,27,8,3,0,Software Engineering; Field Deployments; Deployment Ops
-General Assembly,https://generalassemb.ly/,,,greenhouse,27,5,3,0.48,Temp Instructors; Instruction (Full Time); Enterprise
-Zapier,http://zapier.com,B2B,700,ashby,11,3,4,1.0,Sales; Customer Operations; Campaign Marketing
+TTP,,,,smartrecruiters,51,22,12,0,TTP Group; Cellular Origins; Awerian
+Wizeline,https://www.wizeline.com/,,,greenhouse,36,7,5,0.28,Software Engineering; Mobile Engineering; Visual Design
+Clear,https://clear.in/,Fintech,900,greenhouse,62,39,10,0,Engineering; Sales and Business Development; Aviation
+Two Circles,,,,workable,31,21,5,0.1,Technology; Rights Management; Content
+NYC,,,,ashby,26,10,7,0,Norm Law; Operations; Marketing
 Altruist,,,,greenhouse,84,24,27,0.1,Engineering; Client Development; Operations
-Protex AI,https://www.protex.ai,B2B,5,ashby,17,11,2,0,Commercial; Tech
-Pronto,http://www.tuprontomx.com/,Consumer,62,greenhouse,34,7,8,0,Mining - Engineering; Mining - Operations; ENG Facility
+Quindar,https://www.quindar.space,B2B,57,ashby,21,12,4,0,Engineering; Operations; Product
+Bridgewater Associates,,,,greenhouse,21,10,3,0,Investment Implementation; Alpha Engine; Human Resources
+Circle Logistics,,,,smartrecruiters,53,29,12,0.17,Business Development; Customer Service; Sales
+HUD,https://www.hud.ai,B2B,24,ashby,37,10,16,0.78,Engineering & Research; GTM; Design & Product
+Mozilla,https://www.mozilla.org/,,,greenhouse,112,52,35,1.0,Firefox; New Products; Infrastructure
+Bottomline,,,,greenhouse,43,26,9,0,Finance & Legal; Paymode Revenue Operations; Sales
+Arc Institute,,,,greenhouse,27,10,3,0,Technology Centers; Core Laboratories; Operations
+General Assembly,https://generalassemb.ly/,,,greenhouse,27,5,3,0.48,Temp Instructors; Instruction (Full Time); Enterprise
+Honeycomb,https://honeycomb.tv/,,,greenhouse,22,14,2,1.0,Engineering; Sales; Product Marketing
+People Culture Talent,,,,ashby,11,2,8,0.36,People & Talent; Engineering; All Departments
+Fastly,https://www.fastly.com/,,,greenhouse,56,23,15,0.11,Legal; Product Management; Customer Security - CSOC
+MONUMENTAL,https://monumental.co,,,ashby,28,9,3,0,Software Engineering; Field Deployments; Deployment Ops
+"Abricare, Inc.",,,,greenhouse,17,13,4,0,Operations; Growth
+ApexIT,,,,greenhouse,51,12,4,0.84,Delivery; Oracle; Project Management Office - PMO
 OpenWork,https://openworklabs.com,B2B,4,greenhouse,17,6,3,0.18,Service Delivery; Sales; Central Operations
-Ardent,,,,greenhouse,17,2,6,0.65,Ardent Openings; Other
-GetYourGuide,https://getyourguide.com,,,greenhouse,69,28,18,0,Engineering; Product & Design; Finance & Legal
-ARQ,https://www.arqfinance.com/,Fintech,100,ashby,35,23,2,0,Engineering; Legal & Compliance; Product
-BlackSky,,,,greenhouse,35,17,8,0.51,Technology/Spacecraft Engineering 45-240; Finance/Accounting 10-030; Admin/Production & Supply Chain 45-340
+Garage,https://www.shopgarage.com/,B2B,35,ashby,17,3,2,0.12,Growth; Marketing; Engineering
+Amae Health,,,,greenhouse,40,22,7,0.1,Psychiatry; Patient Operations; Therapy
+bunq,https://bunq.com,,,recruitee,23,14,9,0,"Support & Operations; Risk, Legal & Compliance; Growth"
+H1,https://www.h1.co/,Healthcare,500,lever,23,10,5,0.35,Engineering; Product; Sales Reps
+Hotjar,https://careers.hotjar.com/,,,lever,29,17,4,0.28,Sales; Finance; Customer Success
+ARQ,https://www.arqfinance.com/,Fintech,100,ashby,35,25,2,0,Engineering; Legal & Compliance; Product
+BlackSky,,,,greenhouse,35,16,9,0.51,Technology/Spacecraft Engineering 45-240; Finance/Accounting 10-030; Admin/Production & Supply Chain 45-340
 Plaid,https://plaid.com/,,,ashby,144,57,37,0.11,All Departments
+Atom Computing,,,,lever,42,18,13,0,Manufacturing; Control Systems; Quantum Engineering
 iFit,https://www.ifit.com/,,,greenhouse,30,16,7,0.63,Product; Marketing; Commercial
 Bevi,,,,greenhouse,24,14,2,0.38,Sales; Hardware Engineering; Revenue Operations
+Shepherd,https://shepherdinsurance.com,Fintech,60,ashby,24,13,3,0,Underwriting; EPD; Customer Experience
+AirSculpt,,,,greenhouse,12,12,0,0,Nursing; Sales; Operations
+Valon,,,,ashby,30,9,2,0.47,Engineering; Deployment; People
 Kombo,https://kombo.dev,B2B,77,ashby,18,9,2,0,Commercial; Engineering; Customer Success
+Qventus,http://qventus.com,Healthcare,230,greenhouse,18,8,6,1.0,Implementation Success; Engineering; Product
+AirGarage,https://www.airgarage.com/,,,ashby,18,8,8,0.22,Operations; Marketing; Data & Finance
+CentralReach,,,,greenhouse,18,6,8,0.5,Implementation; Customer Success; Engineering Ops
 Action Garage Doors,,,,greenhouse,12,6,0,0,Residential Service; Administrative; Residential Install
-Tovala,http://www.tovala.com,Consumer,375,lever,12,5,3,0,Production; Operations; Marketing & Growth
 Infisical,https://infisical.com,B2B,70,ashby,12,5,6,0.92,Sales; Engineering; Design
+Karat,https://karat.com,,,greenhouse,12,5,5,1.0,Sales; Product Management; Interview Delivery
 Preference Model,,,,ashby,6,5,0,0,Engineering; Operations
 Udacity,https://www.udacity.com/,,,greenhouse,24,4,3,1.0,Mentors; Session Lead; External Contractors
 ClassDojo,http://www.classdojo.com,Education,100,ashby,12,4,2,1.0,Product; Engineering; People
-Karat,https://karat.com,,,greenhouse,12,4,5,1.0,Sales; Product Management; Technical Interview Content
-Channable,https://channable.com,,,recruitee,12,4,3,0,Engineering; Open application; Customer Success
-Spaceium Inc,https://spaceium.com,Industrials,,greenhouse,12,2,1,0,Engineering; Operations
-PDT Partners,https://grnh.se,,,greenhouse,12,2,1,0,Technology; Research / Strategies; Business Operations
-Popl,https://popl.co/,B2B,60,ashby,6,2,2,1.0,Customer Success; Sales; Product
-Strada,https://www.getstrada.com/,B2B,21,ashby,6,1,1,0.17,Engineering; Sales
