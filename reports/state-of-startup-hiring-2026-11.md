@@ -8,7 +8,7 @@
 - **Best-paid common roles:** Research Engineer $340k, Research Scientist $292k, Vice President $268k.
 - **Pay bands are wide:** the typical gap between P25 and P75 is $40k.
 - **Remote vs pay:** correlation 0.12 across US roles, so remote roles are not paid less.
-- **Hiring bursts:** the 10 fastest-hiring startups posted 25% of the 3,857 new roles among accelerating companies.
+- **Hiring bursts:** the 10 fastest-hiring startups posted 25% of the 3,849 new roles among accelerating companies.
 - **ATS:** Greenhouse and Ashby host 67% of open startup jobs.
 
 ## US pay by role (10 most common)
@@ -34,14 +34,14 @@
 | Coinbase | 114 | 76 | Customer Experience; Internships & Emerging Talent Positions; Engineering - Backend |
 | CHAOS Industries | 108 | 36 | Engineering; Business Operations; Manufacturing |
 | Saronic | 100 | 52 | Manufacturing; Engineering; Mission Ops |
-| Airbnb | 98 | 36 | Software Engineering; Community Support; Business Development |
+| Airbnb | 97 | 37 | Software Engineering; Community Support; Business Development |
 | Tether | 93 | 41 | Engineering; Product​; Other |
-| Anaplan | 81 | 22 | Customer Success; Engineering; Field Sales |
+| Anaplan | 81 | 20 | Customer Success; Engineering; Field Sales |
 | Skydio | 75 | 35 | Operations; R&D |
 | Despegar | 71 | 16 | Commercial; IT & UX; Global Partners |
 | Zoox | 64 | 51 | Software; Vehicle Development; Zoox Internships |
 
-Busiest industries among accelerating companies (where industry is known): B2B (580 new roles), Industrials (131 new roles), Consumer (130 new roles).
+Busiest industries among accelerating companies (where industry is known): B2B (580 new roles), Industrials (131 new roles), Consumer (129 new roles).
 
 ## Which ATS startups use
 
