@@ -8,7 +8,7 @@
 - **Best-paid common roles:** Research Engineer $340k, Research Scientist $292k, Vice President $268k.
 - **Pay bands are wide:** the typical gap between P25 and P75 is $40k.
 - **Remote vs pay:** correlation 0.12 across US roles, so remote roles are not paid less.
-- **Hiring bursts:** the 10 fastest-hiring startups posted 25% of the 3,795 new roles among accelerating companies.
+- **Hiring bursts:** the 10 fastest-hiring startups posted 25% of the 3,772 new roles among accelerating companies.
 - **ATS:** Greenhouse and Ashby host 67% of open startup jobs.
 
 ## US pay by role (10 most common)
@@ -38,8 +38,8 @@
 | Tether | 88 | 45 | Engineering; Product​; Other |
 | Hadrian | 83 | 31 | Manufacturing; Engineering, Product, Design; Business |
 | Anaplan | 81 | 20 | Customer Success; Engineering; Field Sales |
-| Grafana Labs | 80 | 21 | R&D: Grafana; R&D : Databases; Product |
-| Skydio | 71 | 37 | Operations; R&D |
+| Grafana Labs | 77 | 24 | R&D: Grafana; R&D : Databases; Product |
+| Despegar | 70 | 17 | Commercial; IT & UX; Global Partners |
 
 Busiest industries among accelerating companies (where industry is known): B2B (585 new roles), Industrials (131 new roles), Fintech (126 new roles).
 
