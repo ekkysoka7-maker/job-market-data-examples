@@ -39,7 +39,7 @@ Wallbit,https://wallbit.io,Fintech,17,ashby,4,3,0,0.25,Talent; Engineering; Oper
 Decoda Health,https://decodahealth.com/,Healthcare,19,ashby,4,2,2,0,Go To Market; Engineering & Product
 True Link,https://www.truelinkfinancial.com/,Fintech,100,ashby,4,2,0,1.0,Design; Investment Platform; Operations
 Distru,https://distru.com,,,lever,4,1,0,1.0,Product; Talent pool: apply to be considered for future opportunities; Engineering
-Alice Bob,,,,lever,51,28,9,0,Quantum Hardware & Infrastructure; People & Culture; Firmware
+Alice Bob,,,,lever,51,28,7,0,Quantum Hardware & Infrastructure; People & Culture; Firmware
 Astro Mechanica,https://astromecha.co/,Industrials,52,ashby,46,30,8,0.04,Manufacturing; Internships; Airframe
 Altana,,,,greenhouse,38,23,10,0.13,Sales and Delivery; Implementation; Engineering
 AssemblyAI,https://www.assemblyai.com,B2B,65,greenhouse,17,13,2,0.88,Sales; Customer Experience; Marketing
@@ -174,7 +174,7 @@ Banco PAN,,,,greenhouse,17,10,2,0,BANCO PAN
 Toku,https://trytoku.com/,B2B,150,ashby,26,11,2,0,Engineering; Sales; Operations
 Switchboard,https://www.onswitchboard.com,B2B,24,ashby,13,6,4,0.38,Yooz; Open Technology Solutions; General
 Prosper,https://www.getprosper.ai?utm_source=yc&utm_medium=directory&utm_campaign=yc_directory,B2B,60,ashby,13,4,0,0,Sales; Product; Engineering
-FirstWork,https://firstwork.com,B2B,9,ashby,13,4,1,1.0,Sales; Engineering; Product
+FirstWork,https://firstwork.com,B2B,9,ashby,13,4,0,1.0,Sales; Engineering; Product
 Chronograph,,,,greenhouse,13,4,0,0.08,Client Management; Corporate; Product
 Instructure,https://www.instructure.com/,,,ashby,61,34,20,0.75,Sales & Marketing; Research & Development; Client Services
 Supabase,https://supabase.com/,,,ashby,70,25,13,1.0,Engineering; Support; Marketing
