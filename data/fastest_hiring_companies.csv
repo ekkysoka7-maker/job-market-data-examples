@@ -85,12 +85,12 @@ Atomic,https://www.atomicvest.com/,B2B,25,ashby,11,6,4,1.0,Engineering; Brokerag
 Applaudo,https://applaudostudios.com,,,smartrecruiters,37,28,4,0.41,Technology; DevOps; Sales
 Mitratech,,,,greenhouse,20,14,1,0.75,Development; Marketing; Finance and Accounting
 ClassPass,,,,greenhouse,49,31,4,0.02,Sales; Marketing; Engineering
-nerdwallet,https://www.nerdwallet.com,,,ashby,29,19,7,0.69,Sales; Engineering; Marketing
+nerdwallet,https://www.nerdwallet.com,,,ashby,29,19,6,0.69,Sales; Engineering; Marketing
 Bluestone Physician Services,,,,greenhouse,29,10,15,0,Geriatrics (Provider); ADAPT (Provider); Behavioral Health (Provider)
 Juicebox,https://juicebox.ai/,B2B,100,ashby,38,17,4,0,Sales; Customer Success; Engineering
 ASTRO PAK,,,,greenhouse,36,31,2,0.17,Field Services; Cleanroom; EHS&R
 GOAT Group,https://www.goatgroup.com/,Consumer,1600,greenhouse,18,15,3,0.11,Operations; Marcom; Retail
-Thndr,http://www.thndr.app,Fintech,235,ashby,15,9,6,0,Tech; Brokerage; Custody Operations
+Thndr,http://www.thndr.app,Fintech,235,ashby,15,9,5,0,Tech; Brokerage; Custody Operations
 Artificial Intelligence Underwriting Company,https://aiuc-1.com,,,ashby,18,6,3,0,Operations; Product & Engineering; GTM
 Oneleet,https://www.oneleet.com/?utm_source=yc&utm_medium=bookface,B2B,75,ashby,12,5,1,1.0,Security/Compliance; Product; Engineering/Dev
 Preference Model,,,,ashby,6,5,0,0,Engineering; Operations
@@ -118,7 +118,7 @@ Alamar Biosciences,,,,greenhouse,34,19,8,0.24,Sales; Commercial Team; China
 "AiDASH, Inc.",,,,greenhouse,19,8,8,0.21,R&D; Sales; Customer Success
 Tessera Labs,,,,ashby,35,29,1,0.8,Center of Excellence; Product; Platform
 Wikimedia Foundation,,,,greenhouse,16,8,3,1.0,Product & Technology; Communications; Advancement
-Oaknorth,https://oaknorth,,,ashby,26,17,6,0,Debt Finance; Finance; Credit
+Oaknorth,https://oaknorth,,,ashby,26,17,5,0,Debt Finance; Finance; Credit
 Pylon,https://www.pylonump.com/,B2B,72,ashby,26,9,6,0.27,Biz Ops; Engineering; Product
 Bobbie,,,,greenhouse,13,6,3,0.85,Growth; Manufacturing; Commercial
 Outset,https://outset.ai/,B2B,30,ashby,33,21,3,0.27,Sales; Engineering; Customer Success
@@ -146,7 +146,7 @@ Aspora,https://aspora.com,Fintech,85,ashby,11,6,2,0.09,Engineering; Compliance; 
 ACLU - Internships,,,,greenhouse,59,22,36,0.63,Legal; ASNI Internal Operations; National Political & Advocacy
 Supabase,https://supabase.com/,,,ashby,74,29,13,1.0,Engineering; Support; Marketing
 Appen,https://www.appen.com/,,,lever,26,9,11,0.85,AI Data Opportunities; Crowd
-Mesh,https://mesh.ai/,B2B,50,greenhouse,23,8,3,0.57,Engineering; Finance; Product
+Mesh,https://mesh.ai/,B2B,50,greenhouse,23,8,2,0.57,Engineering; Finance; Product
 Distro,https://distro.app,B2B,11,lever,223,123,35,0.08,Company-Wide
 Hiya,,,,ashby,27,14,6,0.07,Engineering; Sales - Customer Success; General Marketing
 Instructure,https://www.instructure.com/,,,ashby,63,36,20,0.76,Sales & Marketing; Research & Development; Client Services
