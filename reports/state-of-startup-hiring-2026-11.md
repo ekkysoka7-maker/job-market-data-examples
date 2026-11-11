@@ -8,7 +8,7 @@
 - **Best-paid common roles:** Research Engineer $340k, Research Scientist $292k, Vice President $265k.
 - **Pay bands are wide:** the typical gap between P25 and P75 is $40k.
 - **Remote vs pay:** correlation 0.10 across US roles, so remote roles are not paid less.
-- **Hiring bursts:** the 10 fastest-hiring startups posted 26% of the 3,686 new roles among accelerating companies.
+- **Hiring bursts:** the 10 fastest-hiring startups posted 26% of the 3,672 new roles among accelerating companies.
 - **ATS:** Greenhouse and Ashby host 67% of open startup jobs.
 
 ## US pay by role (10 most common)
@@ -31,17 +31,17 @@
 | Company | New roles (30 days) | Before | Top teams |
 |---|---|---|---|
 | Distro | 153 | 32 | Company-Wide |
-| Coinbase | 116 | 49 | Customer Experience; Internships & Emerging Talent Positions; Engineering - Backend |
-| PA Consulting | 103 | 23 | Consulting; Digital; Early careers |
-| Airbnb | 99 | 34 | Software Engineering; Community Support; Business Development |
+| Coinbase | 115 | 50 | Customer Experience; Internships & Emerging Talent Positions; Engineering - Backend |
+| PA Consulting | 100 | 26 | Consulting; Digital; Early careers |
+| Airbnb | 98 | 35 | Software Engineering; Community Support; Business Development |
 | Saronic | 95 | 43 | Manufacturing; Engineering; Mission Ops |
 | Grafana Labs | 89 | 25 | Product; R&D: Grafana; Product Management |
-| Tether | 89 | 60 | Engineering; Product​; Other |
+| Tether | 88 | 61 | Engineering; Product​; Other |
 | Hadrian | 86 | 32 | Manufacturing; Engineering, Product, Design; Business |
 | Skydio | 73 | 36 | Operations; R&D |
 | Rivian and Volkswagen Group Technologies | 70 | 37 | Technology and Innovation; Business Strategy and Operations |
 
-Busiest industries among accelerating companies (where industry is known): B2B (608 new roles), Fintech (137 new roles), Consumer (126 new roles).
+Busiest industries among accelerating companies (where industry is known): B2B (607 new roles), Fintech (137 new roles), Consumer (125 new roles).
 
 ## Which ATS startups use
 
