@@ -1,59 +1,59 @@
 # State of Startup Hiring: November 2026
 
-*76,661 open jobs from the public job boards of tech startups, read directly from their applicant tracking systems (Greenhouse, Ashby, Lever, Workable, SmartRecruiters and others). Pay figures come only from postings that publish a range.*
+*76,533 open jobs from the public job boards of tech startups, read directly from their applicant tracking systems (Greenhouse, Ashby, Lever, Workable, SmartRecruiters and others). Pay figures come only from postings that publish a range.*
 
 ## The numbers in one minute
 
-- **Software Engineer (US):** median $211k, middle half $184k to $250k (2139 postings, 371 companies).
+- **Software Engineer (US):** median $211k, middle half $185k to $250k (2128 postings, 368 companies).
 - **Best-paid common roles:** Research Engineer $340k, Research Scientist $292k, Vice President $265k.
-- **Pay bands are wide:** the typical gap between P25 and P75 is $40k.
-- **Remote vs pay:** correlation 0.10 across US roles, so remote roles are not paid less.
-- **Hiring bursts:** the 10 fastest-hiring startups posted 26% of the 3,672 new roles among accelerating companies.
+- **Pay bands are wide:** the typical gap between P25 and P75 is $41k.
+- **Remote vs pay:** correlation 0.12 across US roles, so remote roles are not paid less.
+- **Hiring bursts:** the 10 fastest-hiring startups posted 25% of the 3,811 new roles among accelerating companies.
 - **ATS:** Greenhouse and Ashby host 67% of open startup jobs.
 
 ## US pay by role (10 most common)
 
 | Role | Median | P25 to P75 | Postings | Remote |
 |---|---|---|---|---|
-| Engineering Manager | $255k | $232k to $288k | 258 | 21% |
-| Machine Learning Engineer | $245k | $209k to $276k | 155 | 26% |
-| Software Engineer | $211k | $184k to $250k | 2139 | 17% |
-| Product Manager | $210k | $175k to $240k | 563 | 36% |
-| Technical Program Manager | $210k | $172k to $246k | 215 | 7% |
-| Product Designer | $204k | $179k to $234k | 165 | 23% |
-| Forward Deployed Engineer | $200k | $167k to $238k | 156 | 18% |
+| Engineering Manager | $258k | $238k to $288k | 252 | 21% |
+| Machine Learning Engineer | $246k | $209k to $276k | 154 | 25% |
+| Software Engineer | $211k | $185k to $250k | 2128 | 16% |
+| Product Manager | $210k | $175k to $238k | 562 | 36% |
+| Technical Program Manager | $209k | $171k to $246k | 214 | 7% |
+| Product Designer | $202k | $177k to $232k | 162 | 23% |
+| Forward Deployed Engineer | $200k | $168k to $237k | 157 | 18% |
 | Enterprise Account Executive | $185k | $146k to $288k | 206 | 45% |
 | Electrical Engineer | $163k | $135k to $198k | 156 | 2% |
-| Account Executive | $160k | $110k to $225k | 365 | 38% |
+| Account Executive | $160k | $110k to $221k | 364 | 38% |
 
 ## Who is hiring fastest
 
 | Company | New roles (30 days) | Before | Top teams |
 |---|---|---|---|
-| Distro | 153 | 32 | Company-Wide |
-| Coinbase | 115 | 50 | Customer Experience; Internships & Emerging Talent Positions; Engineering - Backend |
-| PA Consulting | 100 | 26 | Consulting; Digital; Early careers |
-| Airbnb | 98 | 35 | Software Engineering; Community Support; Business Development |
+| Distro | 146 | 30 | Company-Wide |
+| PA Consulting | 107 | 22 | Consulting; Digital; Early careers |
+| Airbnb | 104 | 36 | Software Engineering; Community Support; Sales |
+| Coinbase | 104 | 53 | Customer Experience; Internships & Emerging Talent Positions; Engineering - Backend |
 | Saronic | 95 | 43 | Manufacturing; Engineering; Mission Ops |
 | Grafana Labs | 89 | 25 | Product; R&D: Grafana; Product Management |
-| Tether | 88 | 61 | Engineering; Product​; Other |
-| Hadrian | 86 | 32 | Manufacturing; Engineering, Product, Design; Business |
+| Hadrian | 84 | 34 | Manufacturing; Engineering, Product, Design; Business |
+| Tether | 83 | 67 | Engineering; Product​; Other |
+| Blackbird Health | 74 | 19 | Remote; Gaithersburg, MD; Pittsburgh, PA |
 | Skydio | 73 | 36 | Operations; R&D |
-| Rivian and Volkswagen Group Technologies | 70 | 37 | Technology and Innovation; Business Strategy and Operations |
 
-Busiest industries among accelerating companies (where industry is known): B2B (607 new roles), Fintech (137 new roles), Consumer (125 new roles).
+Busiest industries among accelerating companies (where industry is known): B2B (584 new roles), Healthcare (140 new roles), Consumer (130 new roles).
 
 ## Which ATS startups use
 
 | ATS | Open jobs | Share |
 |---|---|---|
-| Greenhouse | 36,237 | 47.3% |
-| Ashby | 15,346 | 20.0% |
-| Smartrecruiters | 14,697 | 19.2% |
-| Lever | 6,344 | 8.3% |
+| Greenhouse | 36,205 | 47.3% |
+| Ashby | 15,303 | 20.0% |
+| Smartrecruiters | 14,685 | 19.2% |
+| Lever | 6,321 | 8.3% |
 | Workday | 2,000 | 2.6% |
-| Workable | 1,432 | 1.9% |
-| Recruitee | 369 | 0.5% |
+| Workable | 1,418 | 1.9% |
+| Recruitee | 365 | 0.5% |
 | Bamboohr | 207 | 0.3% |
 | Personio | 29 | 0.0% |
 
